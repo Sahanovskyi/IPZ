@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLComponentDiagram1">
+  <componentModelMoniker Id="ed02e514-d19a-440d-8150-662a77b62595" />
+  <nestedChildShapes>
+    <componentShape Id="1579ec57-e7a4-46bb-969c-1d4d186a8405" absoluteBounds="2, 0.75, 7.0583333333333336, 1.8729166269302371" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="0bfe6bbd-8f8b-4da4-b4b7-f68642220a27" LastKnownName="Клієнтська честина" />
+      <relativeChildShapes>
+        <requiredInterfaceShape Id="f50883bb-5208-45b1-8367-cac76c110a12" absoluteBounds="5.4375, 2.6229166269302371, 0.15625, 0.90625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="d91b2148-52a4-4f47-a75c-f55ba72298b4" LastKnownName="Port1" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+      <nestedChildShapes>
+        <componentUseShape Id="46ecfad8-8062-4080-990b-048e5cff5676" absoluteBounds="3.875, 1.375, 1.5208333333333339, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="af67b5cb-a0f8-4374-8721-defcb46bdd49" LastKnownName="Адмінастратор" />
+        </componentUseShape>
+        <componentUseShape Id="adf99ce1-3d3b-4e16-b949-b6362b27aba8" absoluteBounds="5.625, 1.375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="47642713-24f2-4c86-8e83-f05961fe2a4a" LastKnownName="Квитанція" />
+        </componentUseShape>
+        <componentUseShape Id="625380c2-5aee-4036-bb7c-cdebb4380a09" absoluteBounds="2.2083333333333335, 1.375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="e5d24da2-4c09-4c04-918e-a0a91283bad8" LastKnownName="Комірник" />
+        </componentUseShape>
+        <componentUseShape Id="b9c462e9-459d-4c41-bac4-827a906933a1" absoluteBounds="7.375, 1.375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="0c5a9d25-fe51-40e1-9f84-95f23ec03060" LastKnownName="Екран" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <componentShape Id="14be4d56-a43e-4401-9ac1-4df4406610a5" absoluteBounds="2.875, 3.5, 5.2041666666666657, 1.9770834922790526" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="60e83d43-1dbc-45bd-9403-a9f8240e4dfc" LastKnownName="Серверна частина" />
+      <nestedChildShapes>
+        <componentUseShape Id="84e632e9-0ca3-4155-928c-264751ec56f3" absoluteBounds="4.75, 4.25, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="4189b22e-cc46-4ce8-afbb-a838595123d1" LastKnownName="Товар" />
+        </componentUseShape>
+        <componentUseShape Id="8c914f6b-5aff-4aec-a04f-7350f994d563" absoluteBounds="3.1145833333333339, 4.25, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="28675efe-efd1-4c94-838b-9547adaf7838" LastKnownName="Склад" />
+        </componentUseShape>
+        <componentUseShape Id="c12a9362-7108-4a88-840f-f51aa855ac2d" absoluteBounds="6.375, 4.25, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="57be7a34-da36-40fb-9807-aad6b4695a84" LastKnownName="Блок керування" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <commentShape Id="ff0c7f57-ecd9-496d-97ef-8206d8c42ab2" absoluteBounds="5.875, 2.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="5dfa34ae-b0bc-4c8d-ab37-73ed2a25373c" />
+      <relativeChildShapes />
+    </commentShape>
+  </nestedChildShapes>
+</componentDiagram>

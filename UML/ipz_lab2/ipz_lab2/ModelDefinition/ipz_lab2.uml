@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="e83608f5-1419-450d-ba29-2c64200ade7c"
+  name="ipz_lab2" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="d6015f8f-90f2-4cca-84d7-360b01a7f6f0">
+      <body>Знайдено</body>
+    </comment>
+    <comment
+      Id="60404341-8a80-4bba-b933-66b13d373a88">
+      <body>Не знайдено</body>
+    </comment>
+    <comment
+      Id="9103c126-7c25-4b73-b145-7ed277f4f595">
+      <body>Перевірки, чи всі обов'язкові поля заповнені</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="7e59d7fe-962f-41c4-ab21-aca66b204eb8"
+          LastKnownName="Decision1"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="a7babcd2-0e81-4820-ad2d-d55a3e527a46">
+      <body>Так</body>
+    </comment>
+    <comment
+      Id="33202e8e-0b2e-42a0-9817-eba52c666db7">
+      <body>Ні</body>
+    </comment>
+    <comment
+      Id="e79c0dc7-665f-4d9e-bd12-232aeb216415">
+      <body>Перевірка чи товар знайдений</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="d17cbf69-7b26-4ef9-a05d-e5d1829d91b6"
+          LastKnownName="Decision1"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="7e1e60bb-6b9d-44a9-9f6d-253df25cf50d">
+      <body>Перевірка чи товар знайдений</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="4859a700-126a-4a40-a3c3-b424eaaef2b4"
+          LastKnownName="Decision11"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="5cf1e162-0169-4ab1-88a6-94bf820ba2e3">
+      <body>Знайдено</body>
+    </comment>
+    <comment
+      Id="074d7c9c-94a0-413f-bf28-69d8b6566a2f">
+      <body>Не знайдено</body>
+    </comment>
+    <comment
+      Id="d129efd4-c7d8-4386-a3c5-91ef2e2c1bb2">
+      <body>Перевірка чи товар знайдений</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="84893481-3244-430a-a300-d1c7575e6067"
+          LastKnownName="Decision11"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="481d81aa-042b-4f03-b802-b2cc102b9ccf">
+      <body>Знайдено</body>
+    </comment>
+    <comment
+      Id="45772d06-978b-40a5-9bf0-c1c08a752e9e">
+      <body>Не знайдено</body>
+    </comment>
+    <comment
+      Id="e5ab9efc-646a-4637-bcfd-1d79efdfffb8">
+      <body>Перевірка чи товар знайдений</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="29b0516f-1418-4d7d-b340-20d66301e280"
+          LastKnownName="Decision11"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="de1fc160-9a41-450d-a29f-b8f056dcaa04">
+      <body>Так</body>
+    </comment>
+    <comment
+      Id="f9cb0c32-77cd-4ddc-a73c-3598a83ec0d7">
+      <body>Ні</body>
+    </comment>
+    <comment
+      Id="d759e07b-e3f3-4049-844b-26000c94c399">
+      <body>Друкувати квитанцію?</body>
+      <annotatedElements>
+        <decisionNodeMoniker
+          Id="09b2c7c1-678d-4867-9d2b-ec782fe13784"
+          LastKnownName="Decision1"
+          LastKnownLocation="ipz_lab2.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="f2e581eb-77c3-4fab-8bfa-49d994a7fd57">
+      <body>Так</body>
+    </comment>
+    <comment
+      Id="3fea06a0-9bf1-47d4-9eb8-40dae02077f7">
+      <body>Ні</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="bc5f32cf-f49c-4adf-baae-fe51d337ac40"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="a40a8ad1-5e90-4c42-988d-0f7170c8fb81"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7dfb117b-be76-4702-b6d2-d35f65fc6f23"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="317a4867-ead8-426b-bafe-b6a3fc51c927"
+                  LastKnownName="Відкриття вікна перегляду товарів на складі"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="317a4867-ead8-426b-bafe-b6a3fc51c927"
+            name="Відкриття вікна перегляду товарів на складі"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d46ed792-fb9f-48e4-b394-e1acb06fdbeb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="926045c2-2307-46b1-a066-1080bcb45db4"
+                  LastKnownName="Вибір  критерію пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="926045c2-2307-46b1-a066-1080bcb45db4"
+            name="Вибір  критерію пошуку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f6665b5a-3aba-41f6-8c60-8fcfc9211397"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="47b44995-9e05-44b7-a209-cd83db337774"
+                  LastKnownName="Ввід ключового слова пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="47b44995-9e05-44b7-a209-cd83db337774"
+            name="Ввід ключового слова пошуку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="adc5737f-9b23-4fba-801b-d3c936d2c6da"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ecfdeb1f-8eec-4e0f-b56c-ed85ad3bbdb2"
+                  LastKnownName="Пошук товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="d17cbf69-7b26-4ef9-a05d-e5d1829d91b6"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bd54a043-6957-4249-9cf4-3c063f147b0d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="40a75693-5408-4d5e-9870-88a2b3c11c8b"
+                  LastKnownName="Вивід інформація про товар"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="f43b0fa9-e323-4e40-95f9-2eb4cfdf73d9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="bc897078-dc04-4e78-a946-53afb4ea7605"
+                  LastKnownName="Вивід повідомлення про помилку пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="40a75693-5408-4d5e-9870-88a2b3c11c8b"
+            name="Вивід інформація про товар"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ffdec454-a38f-42d6-9d95-4e4904236e9e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="dab797ee-4e17-4fbe-b49c-557ad5b74df9"
+                  LastKnownName="Вихід із системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="dab797ee-4e17-4fbe-b49c-557ad5b74df9"
+            name="Вихід із системи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="af9dc5ff-1b57-4dcb-9e9d-3b9d80d9b025"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="b2d88a70-b5b6-4ed2-8e89-a6f21f1b5694"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ecfdeb1f-8eec-4e0f-b56c-ed85ad3bbdb2"
+            name="Пошук товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="37a51cc0-4257-4d7c-a092-83f5c56a3437"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="d17cbf69-7b26-4ef9-a05d-e5d1829d91b6"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="bc897078-dc04-4e78-a946-53afb4ea7605"
+            name="Вивід повідомлення про помилку пошуку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5f4e3e90-c5b8-4653-aad8-4b863fa7e326"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="926045c2-2307-46b1-a066-1080bcb45db4"
+                  LastKnownName="Вибір  критерію пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="b2d88a70-b5b6-4ed2-8e89-a6f21f1b5694"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="0aec5514-f3eb-44ec-997d-619dd2400ca3"
+        name="Activity2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="d9809cec-2b71-4f20-9f00-011261f64c0d"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0f8025dd-b253-4bb9-b508-9bc6dc600ca2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4f4623a7-4f5c-43c4-9f6c-2cbbe7491f00"
+                  LastKnownName="Ввід назви новго товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="4f4623a7-4f5c-43c4-9f6c-2cbbe7491f00"
+            name="Ввід назви новго товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2aba99c7-1bf5-4f8f-8100-253beef330ee"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ad064416-de3b-4566-be68-74232bfbd18e"
+                  LastKnownName=" Ввід інформації   про новий товар"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ad064416-de3b-4566-be68-74232bfbd18e"
+            name=" Ввід інформації   про новий товар"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8696ebaf-37ef-4313-9a5a-ae25b790d029"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="7e59d7fe-962f-41c4-ab21-aca66b204eb8"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="7e59d7fe-962f-41c4-ab21-aca66b204eb8"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="94ae82c3-6b72-4c2d-a9d3-43590cfb75c9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="09741d69-c773-4b5a-887a-971f04e884d4"
+                  LastKnownName="Вивід інформації про помилку заповнення форм"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="a93c2ea3-7037-4fff-b5ed-52d7d1497dd5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4079f31b-b901-4ffe-8c91-c90523a987b0"
+                  LastKnownName="Додавання новогу това в БД"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="4079f31b-b901-4ffe-8c91-c90523a987b0"
+            name="Додавання новогу това в БД"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8c25dc94-4629-4060-98bd-9918aea74637"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b2bb5c76-400e-48ca-bec8-8a4c9ddf63ab"
+                  LastKnownName="Вихід з системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="09741d69-c773-4b5a-887a-971f04e884d4"
+            name="Вивід інформації про помилку заповнення форм"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="79d2ef79-e167-4af4-955d-e38b6a7eb80a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4f4623a7-4f5c-43c4-9f6c-2cbbe7491f00"
+                  LastKnownName="Ввід назви новго товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b2bb5c76-400e-48ca-bec8-8a4c9ddf63ab"
+            name="Вихід з системи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9b07497f-9fcb-43c5-9317-d41fcac20233"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="1c96dc3f-f11f-47d1-a0bb-f3c964e45c8b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="1c96dc3f-f11f-47d1-a0bb-f3c964e45c8b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="921b994a-05cc-47eb-876a-52af5620fca7"
+        name="Activity3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="e170e20c-089c-4440-a7ad-44478efe1757"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="50783f20-873b-47f6-8b84-20afbdd9578e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="65463702-0a2b-4f34-8f51-d0f53e2300bf"
+                  LastKnownName="Ввід імені товару для редагування"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="65463702-0a2b-4f34-8f51-d0f53e2300bf"
+            name="Ввід імені товару для редагування"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9cfc4cb4-992b-4320-b1a5-78b81be13111"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6ed8ec15-62a6-4295-832c-fced38906b6a"
+                  LastKnownName="Пошук товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="6ed8ec15-62a6-4295-832c-fced38906b6a"
+            name="Пошук товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7c62b99f-ef72-462c-84e6-94f69f5006ec"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="4859a700-126a-4a40-a3c3-b424eaaef2b4"
+                  LastKnownName="Decision11"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b760b2fe-20bd-40b8-8326-2b89e69d9449"
+            name="Вивід інформації про помилку пошуку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bb4b96d4-9fbc-49e4-be2d-62ab2d11c38a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="65463702-0a2b-4f34-8f51-d0f53e2300bf"
+                  LastKnownName="Ввід імені товару для редагування"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="4859a700-126a-4a40-a3c3-b424eaaef2b4"
+            name="Decision11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f4aa326e-ea74-424c-9425-aa3a9d7a7c52"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b760b2fe-20bd-40b8-8326-2b89e69d9449"
+                  LastKnownName="Вивід інформації про помилку пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="178287f9-b7d6-42f0-ab88-afeccc30a9e2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="81a0cd8e-c91c-4e2b-8460-b521411bb181"
+                  LastKnownName="Редагування товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="81a0cd8e-c91c-4e2b-8460-b521411bb181"
+            name="Редагування товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b425432d-c40c-450d-9fa7-a20fd76992f2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="17e5d0ca-19d8-420e-a065-f2851dfc1d4a"
+                  LastKnownName="Збереження змін"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="17e5d0ca-19d8-420e-a065-f2851dfc1d4a"
+            name="Збереження змін"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1d438a10-bae2-4d8f-9d3b-2aaf20620b17"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4470f7a0-5b02-407d-89f7-618c77516a4a"
+                  LastKnownName="Вихід з системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4470f7a0-5b02-407d-89f7-618c77516a4a"
+            name="Вихід з системи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cfdf9b1e-ee14-4a4f-92f5-2352bb5be202"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="c54704ee-fd3f-4466-85dc-7a90386cd72b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="c54704ee-fd3f-4466-85dc-7a90386cd72b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="55f30a17-094b-4885-a950-3edfeff155c5"
+        name="Activity4"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="fcae8f10-ec36-4853-b9ba-60bcee41c935"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0e2fbe8b-da6d-46f6-a48e-d75b974566ff"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9ff529ca-a96f-412f-9029-dfb9d4c37430"
+                  LastKnownName="Ввід імені товару для видалення"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="9ff529ca-a96f-412f-9029-dfb9d4c37430"
+            name="Ввід імені товару для видалення"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4affceea-d8b5-48dd-a774-607acfbff116"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9ff2ac6a-28e2-4be5-976d-e39db1b02841"
+                  LastKnownName="Пошук товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9ff2ac6a-28e2-4be5-976d-e39db1b02841"
+            name="Пошук товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7383155b-3c41-456f-bf66-33b03e3fb177"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="84893481-3244-430a-a300-d1c7575e6067"
+                  LastKnownName="Decision11"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ddf3c345-631c-4534-a765-56a66c9a7b2f"
+            name="Вивід інформації про помилку пошуку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c603fe6b-b4d8-473f-a9f5-58152bcb92eb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9ff529ca-a96f-412f-9029-dfb9d4c37430"
+                  LastKnownName="Ввід імені товару для видалення"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="84893481-3244-430a-a300-d1c7575e6067"
+            name="Decision11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0c875487-27eb-4a33-a802-f46cef7d13c2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e18fb377-ba76-4892-b718-20ce94dd3c04"
+                  LastKnownName="Видалення товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="af880974-2ce0-48e0-a705-f6ca1914947d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ddf3c345-631c-4534-a765-56a66c9a7b2f"
+                  LastKnownName="Вивід інформації про помилку пошуку"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="e18fb377-ba76-4892-b718-20ce94dd3c04"
+            name="Видалення товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ba8b6dd9-3378-4e7e-8b81-8a6f15a47259"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="cf7e1bfa-4688-4e04-aabc-8a415e9cd2cb"
+                  LastKnownName="Вихід з системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="cf7e1bfa-4688-4e04-aabc-8a415e9cd2cb"
+            name="Вихід з системи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bf34ad96-b68e-4a38-b6f9-0edb51b2d3fb"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="5a0c3f1b-3054-44dc-bb74-0617e76f6af9"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="5a0c3f1b-3054-44dc-bb74-0617e76f6af9"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="02b31456-c7b8-4393-9996-baca521c98a4"
+        name="Activity5"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="e33a95cb-45b2-4bd5-9709-3921e1466edf"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="346f13bb-e355-49df-a404-ba6b64430c11"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d11ed87e-6d3e-472f-a7dd-efbee8e656e3"
+                  LastKnownName="Ввід імені потрібного товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="d11ed87e-6d3e-472f-a7dd-efbee8e656e3"
+            name="Ввід імені потрібного товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="11557b9b-0f0e-4d81-8290-cfee107c6b88"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c5c2643b-1e03-482f-82a8-c1a8e0a204a9"
+                  LastKnownName="Пошук товару на скаді"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c5c2643b-1e03-482f-82a8-c1a8e0a204a9"
+            name="Пошук товару на скаді"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ee4c1c8a-66c2-4933-89fc-178a5295faee"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="29b0516f-1418-4d7d-b340-20d66301e280"
+                  LastKnownName="Decision11"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="99126d44-5972-4ec1-9e49-002dba1e41a4"
+            name="Замовлення товару"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bf8b14b5-baf7-40bb-8b3a-de6fc642ecb1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3530ad55-cd26-4ebe-9ac2-e09fcce278c3"
+                  LastKnownName="Друк квитанції"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="29b0516f-1418-4d7d-b340-20d66301e280"
+            name="Decision11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="143c3756-a294-4100-84ef-f52268c3bff6"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="eb321e1a-a29c-4649-ad69-5ce0e34ea756"
+                  LastKnownName="Вивід інформації про відсутність товару на складі"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="6d574b9e-f060-4fac-884e-2ccfdd530509"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="99126d44-5972-4ec1-9e49-002dba1e41a4"
+                  LastKnownName="Замовлення товару"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="eb321e1a-a29c-4649-ad69-5ce0e34ea756"
+            name="Вивід інформації про відсутність товару на складі"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="50a91309-ee22-4bcd-b8a3-ea4f1791184e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f9f63d26-b969-4478-8d0f-1fa5f0ed05cd"
+                  LastKnownName="Вихід з системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3530ad55-cd26-4ebe-9ac2-e09fcce278c3"
+            name="Друк квитанції"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b0d9880b-1dba-4c73-9fdd-8c62cefb1053"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f9f63d26-b969-4478-8d0f-1fa5f0ed05cd"
+                  LastKnownName="Вихід з системи"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f9f63d26-b969-4478-8d0f-1fa5f0ed05cd"
+            name="Вихід з системи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e5379d79-d8a5-43e3-985c-0abcd64ed092"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="347af104-07a1-4db6-b35f-ca66a18f4330"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="347af104-07a1-4db6-b35f-ca66a18f4330"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="f52ced2b-6d88-45d9-8640-ae89f69be2d2"
+        name="Activity6"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="730d8d6b-dff6-4a36-bfcd-b620554183ce"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1e34dfc0-e305-4007-b949-17feaa6c76e5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="df5c7119-8142-41d5-b3c9-9c00446924a2"
+                  LastKnownName="Відображення повідомлення друкування квитанції"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="df5c7119-8142-41d5-b3c9-9c00446924a2"
+            name="Відображення повідомлення друкування квитанції"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c0b1493c-437a-4cfc-9e46-8a13d306a8da"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="09b2c7c1-678d-4867-9d2b-ec782fe13784"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="09b2c7c1-678d-4867-9d2b-ec782fe13784"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5270d96d-24ed-4e62-bd7b-f3604dbddaf0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ed7b861f-898a-469b-bdac-1182b5dea0c0"
+                  LastKnownName="Друк квитанції"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="92594bbe-7ca0-46f3-9d05-20e1657ba060"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0766cf3e-8041-4060-8243-81b481989049"
+                  LastKnownName="Вихід з сисеми"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="0766cf3e-8041-4060-8243-81b481989049"
+            name="Вихід з сисеми"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f1e56f96-ecd0-4bae-a5c4-f951cfbe1b49"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="619af910-f727-48f5-8817-98b4d151af4b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ed7b861f-898a-469b-bdac-1182b5dea0c0"
+            name="Друк квитанції"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c7432f8c-bf16-473b-b201-9e8145489085"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0766cf3e-8041-4060-8243-81b481989049"
+                  LastKnownName="Вихід з сисеми"
+                  LastKnownLocation="ipz_lab2.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="619af910-f727-48f5-8817-98b4d151af4b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

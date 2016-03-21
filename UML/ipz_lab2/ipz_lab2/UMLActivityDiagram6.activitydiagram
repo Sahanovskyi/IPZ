@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="414fe721-5b1e-4fd3-9a04-3d16a675036d" name="Activity6" linkedPackageId="73c2fb87-20b2-40be-857e-439b181e5528" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="a472bb20-89a3-4b4e-a747-b07aa625e4fe">
+      <elementDefinition Id="d759e07b-e3f3-4049-844b-26000c94c399" />
+      <body>Друкувати квитанцію?</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="006f8501-57da-4f7a-9991-1b153206b3d3" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="34235641-048e-4655-b88a-0ac6e1a9b07a">
+      <elementDefinition Id="f2e581eb-77c3-4fab-8bfa-49d994a7fd57" />
+      <body>Так</body>
+    </comment>
+    <comment Id="9a45247d-e053-48fa-ba1c-1e87844941c6">
+      <elementDefinition Id="3fea06a0-9bf1-47d4-9eb8-40dae02077f7" />
+      <body>Ні</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="305a7520-1247-4ab2-b59e-0f2b768be02a">
+      <profileInstance Id="b07f7295-5316-412d-94bd-7413f07fb44c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b1a9b96c-f6fb-474f-b8c5-9dd5e6e904ab">
+      <profileInstance Id="77801549-a788-4e2e-bbf5-ad2bcd4a7aab" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="7fb201e6-9928-4593-8f45-64278ef250a0" name="Activity6" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="f52ced2b-6d88-45d9-8640-ae89f69be2d2" />
+        <nodes>
+          <initialNode Id="1c6c4c5e-1cf7-4dd3-ade1-cc0ad5b56242" name="Initial1" isLeaf="false">
+            <elementDefinition Id="730d8d6b-dff6-4a36-bfcd-b620554183ce" />
+            <flowNodeTargets>
+              <controlFlow Id="360c1305-eefd-4a0f-a3bb-d6b3148ea0f2" isLeaf="false">
+                <opaqueActionMoniker Id="f4342444-9eef-4e68-87f0-dbd62dc5dc86" LastKnownName="Відображення повідомлення друкування квитанції" />
+                <elementDefinition Id="1e34dfc0-e305-4007-b949-17feaa6c76e5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f4342444-9eef-4e68-87f0-dbd62dc5dc86" name="Відображення повідомлення друкування квитанції" isLeaf="false">
+            <elementDefinition Id="df5c7119-8142-41d5-b3c9-9c00446924a2" />
+            <flowNodeTargets>
+              <controlFlow Id="1dcecdb5-f806-480a-9010-fc34b5c6f166" isLeaf="false">
+                <decisionNodeMoniker Id="006f8501-57da-4f7a-9991-1b153206b3d3" LastKnownName="Decision1" />
+                <elementDefinition Id="c0b1493c-437a-4cfc-9e46-8a13d306a8da" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="006f8501-57da-4f7a-9991-1b153206b3d3" name="Decision1" isLeaf="false">
+            <elementDefinition Id="09b2c7c1-678d-4867-9d2b-ec782fe13784" />
+            <flowNodeTargets>
+              <controlFlow Id="f75337c8-77fa-4128-8e70-6851771595d4" isLeaf="false">
+                <opaqueActionMoniker Id="36b11c20-a8b3-4291-a7e6-f902a1031fbd" LastKnownName="Друк квитанції" />
+                <elementDefinition Id="5270d96d-24ed-4e62-bd7b-f3604dbddaf0" />
+              </controlFlow>
+              <controlFlow Id="164e333c-f187-49cb-a087-70079dc75cc5" isLeaf="false">
+                <opaqueActionMoniker Id="8368744d-53eb-4ad9-8dfb-08ada9d8b47e" LastKnownName="Вихід з сисеми" />
+                <elementDefinition Id="92594bbe-7ca0-46f3-9d05-20e1657ba060" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="8368744d-53eb-4ad9-8dfb-08ada9d8b47e" name="Вихід з сисеми" isLeaf="false">
+            <elementDefinition Id="0766cf3e-8041-4060-8243-81b481989049" />
+            <flowNodeTargets>
+              <controlFlow Id="cb326b9e-99ad-4cd4-80f9-a7c5d6b7249d" isLeaf="false">
+                <activityFinalNodeMoniker Id="6bbed54b-a1f2-489e-8bbe-cba619fbb0be" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="f1e56f96-ecd0-4bae-a5c4-f951cfbe1b49" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="36b11c20-a8b3-4291-a7e6-f902a1031fbd" name="Друк квитанції" isLeaf="false">
+            <elementDefinition Id="ed7b861f-898a-469b-bdac-1182b5dea0c0" />
+            <flowNodeTargets>
+              <controlFlow Id="7b7b9572-095c-4caf-ae6f-efc35a0baf25" isLeaf="false">
+                <opaqueActionMoniker Id="8368744d-53eb-4ad9-8dfb-08ada9d8b47e" LastKnownName="Вихід з сисеми" />
+                <elementDefinition Id="c7432f8c-bf16-473b-b201-9e8145489085" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="6bbed54b-a1f2-489e-8bbe-cba619fbb0be" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="619af910-f727-48f5-8817-98b4d151af4b" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="73c2fb87-20b2-40be-857e-439b181e5528" name="ipz_lab2">
+    <elementDefinition Id="e83608f5-1419-450d-ba29-2c64200ade7c" />
+  </package>
+</activityRootModel>

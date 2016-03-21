@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="86cf9d93-3e93-4685-926d-ea58945521b0" name="Activity2" linkedPackageId="6ed6cca3-6fb8-4b36-9498-0ae017519564" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="08c1d2ad-f435-4231-9ed9-215148001941">
+      <elementDefinition Id="9103c126-7c25-4b73-b145-7ed277f4f595" />
+      <body>Перевірки, чи всі обов'язкові поля заповнені</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="71bf393e-06b9-4df7-a283-fbcd7323f632" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="119f1c36-119f-48d7-94b7-84d0882cb267">
+      <elementDefinition Id="a7babcd2-0e81-4820-ad2d-d55a3e527a46" />
+      <body>Так</body>
+    </comment>
+    <comment Id="3a81fbae-6afb-4858-a610-c44e49f5dad7">
+      <elementDefinition Id="33202e8e-0b2e-42a0-9817-eba52c666db7" />
+      <body>Ні</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="317008e6-b10a-4956-a1e1-91346e90ae17">
+      <profileInstance Id="0e3770d0-2c94-4b14-8e96-756477578adc" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c88429b5-e885-4726-9416-6600e2306ea8">
+      <profileInstance Id="c0863c00-98ca-4462-9517-cebe5a6ea90b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="f4b3f0a0-9cb1-46d7-98db-2388c667ee78" name="Activity2" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="0aec5514-f3eb-44ec-997d-619dd2400ca3" />
+        <nodes>
+          <initialNode Id="f43ea1f9-8d88-4eea-9148-a114783a4044" name="Initial1" isLeaf="false">
+            <elementDefinition Id="d9809cec-2b71-4f20-9f00-011261f64c0d" />
+            <flowNodeTargets>
+              <controlFlow Id="aa82ea57-8334-4871-a5a0-1f032c82fdf2" isLeaf="false">
+                <opaqueActionMoniker Id="5fd66291-6c63-4572-afd8-f103d17e03a1" LastKnownName="Ввід назви новго товару" />
+                <elementDefinition Id="0f8025dd-b253-4bb9-b508-9bc6dc600ca2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="5fd66291-6c63-4572-afd8-f103d17e03a1" name="Ввід назви новго товару" isLeaf="false">
+            <elementDefinition Id="4f4623a7-4f5c-43c4-9f6c-2cbbe7491f00" />
+            <flowNodeTargets>
+              <controlFlow Id="71503ec9-ac1e-49e7-a33d-a75e72f02de6" isLeaf="false">
+                <opaqueActionMoniker Id="9cf4f0be-ffad-41a4-9948-33aa3aa6daef" LastKnownName=" Ввід інформації   про новий товар" />
+                <elementDefinition Id="2aba99c7-1bf5-4f8f-8100-253beef330ee" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9cf4f0be-ffad-41a4-9948-33aa3aa6daef" name=" Ввід інформації   про новий товар" isLeaf="false">
+            <elementDefinition Id="ad064416-de3b-4566-be68-74232bfbd18e" />
+            <flowNodeTargets>
+              <controlFlow Id="95f7968f-a44c-4932-9e7f-5c39c94c0ae2" isLeaf="false">
+                <decisionNodeMoniker Id="71bf393e-06b9-4df7-a283-fbcd7323f632" LastKnownName="Decision1" />
+                <elementDefinition Id="8696ebaf-37ef-4313-9a5a-ae25b790d029" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="71bf393e-06b9-4df7-a283-fbcd7323f632" name="Decision1" isLeaf="false">
+            <elementDefinition Id="7e59d7fe-962f-41c4-ab21-aca66b204eb8" />
+            <flowNodeTargets>
+              <controlFlow Id="730742ec-613b-4cec-acc5-72ea03550995" isLeaf="false">
+                <opaqueActionMoniker Id="3d3e5bc3-ea57-46e2-bff9-aa8722c5d3c6" LastKnownName="Вивід інформації про помилку заповнення форм" />
+                <elementDefinition Id="94ae82c3-6b72-4c2d-a9d3-43590cfb75c9" />
+              </controlFlow>
+              <controlFlow Id="e73d8c79-83f1-4f61-8941-f106521ebb44" isLeaf="false">
+                <opaqueActionMoniker Id="79c859c7-6f53-488c-929f-4f93614d514c" LastKnownName="Додавання новогу това в БД" />
+                <elementDefinition Id="a93c2ea3-7037-4fff-b5ed-52d7d1497dd5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="79c859c7-6f53-488c-929f-4f93614d514c" name="Додавання новогу това в БД" isLeaf="false">
+            <elementDefinition Id="4079f31b-b901-4ffe-8c91-c90523a987b0" />
+            <flowNodeTargets>
+              <controlFlow Id="de5f76e1-27a5-4768-bb8c-fe5d451d55dc" isLeaf="false">
+                <opaqueActionMoniker Id="f654ee2a-a56a-4751-806f-9aecc4838a56" LastKnownName="Вихід з системи" />
+                <elementDefinition Id="8c25dc94-4629-4060-98bd-9918aea74637" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3d3e5bc3-ea57-46e2-bff9-aa8722c5d3c6" name="Вивід інформації про помилку заповнення форм" isLeaf="false">
+            <elementDefinition Id="09741d69-c773-4b5a-887a-971f04e884d4" />
+            <flowNodeTargets>
+              <controlFlow Id="89e452b5-e261-4d8d-93ff-a10e5e2206b7" isLeaf="false">
+                <opaqueActionMoniker Id="5fd66291-6c63-4572-afd8-f103d17e03a1" LastKnownName="Ввід назви новго товару" />
+                <elementDefinition Id="79d2ef79-e167-4af4-955d-e38b6a7eb80a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f654ee2a-a56a-4751-806f-9aecc4838a56" name="Вихід з системи" isLeaf="false">
+            <elementDefinition Id="b2bb5c76-400e-48ca-bec8-8a4c9ddf63ab" />
+            <flowNodeTargets>
+              <controlFlow Id="f3d0dc54-2ec4-4cc6-b174-2d7eb189e146" isLeaf="false">
+                <activityFinalNodeMoniker Id="815053bf-8e50-43a8-b9c1-17ada95e8a8b" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="9b07497f-9fcb-43c5-9317-d41fcac20233" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="815053bf-8e50-43a8-b9c1-17ada95e8a8b" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="1c96dc3f-f11f-47d1-a0bb-f3c964e45c8b" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="6ed6cca3-6fb8-4b36-9498-0ae017519564" name="ipz_lab2">
+    <elementDefinition Id="e83608f5-1419-450d-ba29-2c64200ade7c" />
+  </package>
+</activityRootModel>

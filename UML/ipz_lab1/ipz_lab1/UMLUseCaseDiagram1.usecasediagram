@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="897fd185-0816-4cdb-a178-40653ddc955b" name="UMLUseCaseDiagram1" linkedPackageId="e59961c1-f9e9-422b-9fb2-0e7ebe46b5ed" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a4242dcb-6943-4d12-b11f-f7de7fe769ad" name="Комірник" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85681cd8-50cd-4cbc-816f-f7ca289a13fb" />
+        <targetEnds>
+          <association Id="4bb7b150-6446-413b-b87c-fe4e9349ff78" isDerived="false" sourceEndRoleName="Людина" targetEndRoleName="Переглянути наявні товари на складі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="40119a6a-da6c-4bce-a255-a136e557298a" LastKnownName="Переглянути наявні товари на складі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6776c93-fb91-4fdc-9903-2e33b7da91a9" name="Людина" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2b2a1645-5c10-4ec2-b23e-b56769a6cf8e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d96a9103-26e6-47d6-b0ed-ac0dad78ca83" name="Переглянути наявні товари на складі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="024514fe-cf98-4eeb-bc15-d77e1b80b2d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8431648-df13-47c5-a8a2-48a47edd8094" />
+          </association>
+          <association Id="61036da3-d5e5-46b4-9a99-528bf4c48b5c" isDerived="false" sourceEndRoleName="Людина" targetEndRoleName="Додати товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c1fe8a72-8670-41ff-8036-1f25c28cb3c3" LastKnownName="Додати товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0481dff9-d149-42be-b2a8-457ba033ec8f" name="Людина" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eb31042b-e300-4644-a07d-f3031a0805fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2626a5be-6a57-4c40-9660-467d2f20585e" name="Додати товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a00fa84c-0607-43b6-8297-26052a116b7f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="31c9a27a-a151-4857-a5eb-6ddf4852f365" />
+          </association>
+          <association Id="075cb706-026f-4f29-a3cc-43af685c2d87" isDerived="false" sourceEndRoleName="Людина" targetEndRoleName="Редагувати товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="69bb2e01-7e39-48d0-85dd-4a398822c28e" LastKnownName="Редагувати товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="adbbc184-3e79-444b-aea1-dae82aa5e968" name="Людина" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a4a92f62-d57f-4ae7-8125-dd3c74281d7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3c56bf4b-4be0-48e0-829c-041ce5d772d6" name="Редагувати товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="edae5c2d-1bd1-478c-85ec-775058a83109" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="164c3215-635e-4ef7-b20a-f20e89a4c063" />
+          </association>
+          <association Id="d6a94071-e69b-4b15-bf9c-c4a30e0112c7" isDerived="false" sourceEndRoleName="Людина" targetEndRoleName="Видалити товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae465316-4dfc-4568-9bb8-432d662e77f5" LastKnownName="Видалити товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f2bb8922-6273-47e9-9e97-e0b17d36670c" name="Людина" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="43619e59-be76-492b-99bf-b0a27b4bf4ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9accb216-7f37-4cc9-a6f0-4705449ae664" name="Видалити товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5b7e2ac7-5e58-45e4-8835-6e959a77d6d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="db036a0e-7857-44f6-aec4-35b5ac93416f" />
+          </association>
+          <association Id="6bb15bca-2e45-41af-ad28-33d93433554e" isDerived="false" sourceEndRoleName="Людина" targetEndRoleName="Вивід інформації" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6767d4b1-a6b6-4e59-9c95-a0c29130502d" LastKnownName="Друк квитанції" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ccfaacf5-0279-40ea-b6b9-c1fe9646cb18" name="Людина" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a56425c3-d763-4d81-ab43-dcd11ba25032" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="12a90db1-7348-4505-b4b2-e6e882076526" name="Вивід інформації" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8fba5b57-c675-4079-abec-e2306efaa50c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dd52ab60-7e1b-436b-baf5-8c6c160b830e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="40119a6a-da6c-4bce-a255-a136e557298a" name="Переглянути наявні товари на складі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c59a6b80-ebc3-4a76-881b-32a19f3f2b4c" />
+        <targetEnds>
+          <association Id="21fc8fac-fb68-4040-8aab-c19643d92577" isDerived="false" sourceEndRoleName="Переглянути наявні товари на складі" targetEndRoleName="За типом" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="54bd9fb7-3df1-4216-9591-1ceec7677a0f" LastKnownName="За типом" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98271589-8436-4ef5-8d1d-e174c9637511" name="Переглянути наявні товари на складі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="331d7209-52e3-435b-94b3-a4f80345a6b3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8df6e9d0-1d88-4914-968f-43cda759f2de" name="За типом" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0dd0bbdc-434c-46ed-a139-fab3557bc9cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3a5b0204-ebbc-4fa2-a0dd-a9db7062a18c" />
+          </association>
+          <association Id="7a016950-42fc-48fc-9a53-b34d0d3f0549" isDerived="false" sourceEndRoleName="Переглянути наявні товари на складі" targetEndRoleName="За виробником" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="272d3aa0-f430-480e-b561-d0ab11bf832b" LastKnownName="За виробником" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2068301d-da7a-4fc3-94c9-99ccf8200c4e" name="Переглянути наявні товари на складі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="22cdbd3f-9562-4cb7-b37b-2a8e50c30047" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fd8e86d6-4bd4-4124-b3fc-22236f0b1369" name="За виробником" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf924f05-a0c5-4dc5-ae3c-7b1408462fa1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="31843bbd-9090-4a8d-931a-04527729d5ae" />
+          </association>
+          <association Id="1be9c32b-957a-4bb0-a65e-d9f09a15cf34" isDerived="false" sourceEndRoleName="Переглянути наявні товари на складі" targetEndRoleName="За назво" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a7edff4f-fed2-4527-8ef4-6d0cca35704e" LastKnownName="За назво" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77ea67ee-8839-4e9b-a61b-db086baed25b" name="Переглянути наявні товари на складі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0471206a-6820-4daf-9999-8e87499f3729" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="782e5597-852b-4a6f-9b8a-c46811760e13" name="За назво" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9a98bb4e-7f13-4c55-ae41-122e09761168" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6fba5df6-2b34-4298-8c8f-8871709c9952" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c1fe8a72-8670-41ff-8036-1f25c28cb3c3" name="Додати товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eab015b5-7426-40c7-8719-54742d1272d3" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ae465316-4dfc-4568-9bb8-432d662e77f5" name="Видалити товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2634bb16-3213-4478-ae46-664f6096b30d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f0fb872f-d16d-45cd-b780-5c88278490f2" name="Адміністратор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5de57150-8266-43ea-ac94-58351f67e755" />
+        <targetEnds>
+          <association Id="97d63fe9-e493-491b-a5d9-0b25aa4d315b" isDerived="false" sourceEndRoleName="База даних" targetEndRoleName="Вивід інформації" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6767d4b1-a6b6-4e59-9c95-a0c29130502d" LastKnownName="Друк квитанції" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6fb3111d-e644-41c7-b414-2670d47d3a19" name="База даних" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a91920d6-c312-4068-853e-3eba36c69baf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="960956c3-0587-4cae-8a72-1d89c1a2d135" name="Вивід інформації" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6a9fe803-3dcf-441d-b19c-80542729ead0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a699fc5a-8cc5-45d4-ba4e-8ef659c52ad5" />
+          </association>
+          <association Id="0610e4a4-1ec5-407b-af1c-6a13443de89c" isDerived="false" sourceEndRoleName="База даних" targetEndRoleName="За типом" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="54bd9fb7-3df1-4216-9591-1ceec7677a0f" LastKnownName="За типом" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a6fa0ef-0bb1-4bb9-a4b5-219bee72b355" name="База даних" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a7dd6b95-a797-418f-93f6-a54a71d5988b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b14e206b-b470-43f1-b52b-c078667bc08c" name="За типом" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="62518ddf-ea29-482e-a849-d270a49d7998" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e73de863-cd17-4672-a169-2d51df318c45" />
+          </association>
+          <association Id="764733ad-ef76-4619-807a-372b204cc4bc" isDerived="false" sourceEndRoleName="База даних" targetEndRoleName="За виробником" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="272d3aa0-f430-480e-b561-d0ab11bf832b" LastKnownName="За виробником" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3687552b-e36e-4058-af44-88f510178529" name="База даних" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7691b018-ef6f-4573-bef5-963fccfdb379" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fa9bf348-792c-45ab-b89a-bc6200b90d3c" name="За виробником" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7985078c-febb-4b24-806d-d099f5bc8b42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="62cb086d-eba4-434e-ad95-90b0d88d6be2" />
+          </association>
+          <association Id="27f8726c-4d13-4022-98bb-47df3b70ba20" isDerived="false" sourceEndRoleName="База даних" targetEndRoleName="За назво" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a7edff4f-fed2-4527-8ef4-6d0cca35704e" LastKnownName="За назво" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be5a6e26-eb71-460e-8cd6-484311339f11" name="База даних" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="65dd123e-48b1-4e30-9436-fb850c2f5513" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42d0f7e4-8f45-4776-8f2f-9a04fc76284c" name="За назво" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6c37df92-63f5-4f04-a58d-8817508cb056" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c29ff90a-dcce-4b54-8d23-0f4058f68e48" />
+          </association>
+          <association Id="69168e40-5c06-41e1-9714-67be367ad905" isDerived="false" sourceEndRoleName="База даних" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c7866257-4c17-4e6c-8db1-acaab139035c" LastKnownName="Замовити товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe996969-68ee-4fcf-a71e-a02ee3fe0e62" name="База даних" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="71547d37-b1cb-4efb-9432-1c01fef94219" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e4843d6e-c40f-46d8-a48f-79b811754808" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="41121ddd-fa8a-453f-89a9-772918c745c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc5350c5-87d8-41df-8444-6acff9ef385b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="54bd9fb7-3df1-4216-9591-1ceec7677a0f" name="За типом" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44214f96-84f7-4823-ba4f-4cb634a82ed1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="69bb2e01-7e39-48d0-85dd-4a398822c28e" name="Редагувати товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2e33f5bb-1ce2-4657-bd2c-3bf6d9f00120" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="272d3aa0-f430-480e-b561-d0ab11bf832b" name="За виробником" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1655fa38-d767-48d6-8581-3f78d9379f6c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a7edff4f-fed2-4527-8ef4-6d0cca35704e" name="За назво" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b614014-2c05-4c20-94ef-94d8bb3f12da" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6767d4b1-a6b6-4e59-9c95-a0c29130502d" name="Друк квитанції" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ca711742-722e-495f-83ec-333cfcdcb063" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c7866257-4c17-4e6c-8db1-acaab139035c" name="Замовити товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3a7bc20d-3e2e-49b1-a902-14dace441df1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="e59961c1-f9e9-422b-9fb2-0e7ebe46b5ed" name="ipz_lab1">
+    <elementDefinition Id="80a6cd8b-0fe2-497b-ab2d-6af6fc5a242f" />
+    <profileInstances>
+      <packageHasProfileInstances Id="df1b45e9-18ea-41fa-8fb7-025e94aa4f52">
+        <profileInstance Id="ff739326-c8c1-4948-a797-1760df64691a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4efac996-cd63-4dca-9c20-b13409ab7345">
+        <profileInstance Id="9532fa2e-7d96-418e-9fa5-ab7c85b2777a" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

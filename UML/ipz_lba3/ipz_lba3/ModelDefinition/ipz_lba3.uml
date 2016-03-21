@@ -1,0 +1,4264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="49ebfc07-257e-4d17-acd0-7f11e161909c"
+  name="ipz_lba3" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="2e5b84cf-a7e5-42bc-9f64-34d41bcc273f"
+        name="Sequence2"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="c3b7658a-f276-485e-ad1b-480c78c27cc5"
+            name="BehaviorExecutionSpecification32">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="82748b36-7d3f-4249-a98f-efb102f4c03f"
+                LastKnownName="ExecutionOccurrenceSpecification64"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4e3672e1-e162-472c-ac85-aed72dd63a8c"
+                LastKnownName="ExecutionOccurrenceSpecification63"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6e9d117-7a6f-4741-b309-445d7497021d"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e25a86f9-0f28-409d-a2da-18f49ba1f143"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4e3672e1-e162-472c-ac85-aed72dd63a8c"
+            name="ExecutionOccurrenceSpecification63">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="65941dcd-1b7e-4ca0-9225-bc1d331b5d94"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b6e9d117-7a6f-4741-b309-445d7497021d"
+            name="MessageOccurrenceSpecification79">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f0a3cecd-afd5-4988-a00c-7d6d7b397538"
+            name="MessageOccurrenceSpecification78">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="09c5b08d-4039-45a0-8836-ee1deadf5e05"
+            name="BehaviorExecutionSpecification34">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="12797433-62ce-4662-8c4f-cb4fe1f2f1e2"
+                LastKnownName="ExecutionOccurrenceSpecification68"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9914051b-acdf-4791-a1d2-c4c174bc8f76"
+                LastKnownName="ExecutionOccurrenceSpecification67"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2019f0d0-25fd-4987-8b19-b4548d709ff0"
+                LastKnownName="MessageOccurrenceSpecification83"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9914051b-acdf-4791-a1d2-c4c174bc8f76"
+            name="ExecutionOccurrenceSpecification67">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="27b7b902-2798-4799-9903-15a75e09aa7b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e25a86f9-0f28-409d-a2da-18f49ba1f143"
+            name="MessageOccurrenceSpecification82">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2019f0d0-25fd-4987-8b19-b4548d709ff0"
+            name="MessageOccurrenceSpecification83">
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="82748b36-7d3f-4249-a98f-efb102f4c03f"
+            name="ExecutionOccurrenceSpecification64">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="707e5da4-d369-4c64-9a73-eb455a6887af"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="12797433-62ce-4662-8c4f-cb4fe1f2f1e2"
+            name="ExecutionOccurrenceSpecification68">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="aba27c6c-73d1-4da9-b49e-e8b770a5f32c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c00c69fc-e60c-404a-a777-3e4a61a12222"
+            name="BehaviorExecutionSpecification35">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b1d08cdb-0b9a-45a6-ba23-3e964c4efa04"
+                LastKnownName="ExecutionOccurrenceSpecification70"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="40038b53-741b-472c-837e-77c92ab655fb"
+                LastKnownName="ExecutionOccurrenceSpecification69"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="065c9523-857e-41e9-b518-8b380d6abe43"
+                LastKnownName="MessageOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bbf69408-f8bf-48ca-9724-ed4cb1c931b0"
+                LastKnownName="MessageOccurrenceSpecification86"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="40038b53-741b-472c-837e-77c92ab655fb"
+            name="ExecutionOccurrenceSpecification69">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fd3e1120-b711-430f-bb59-cd856a459bf4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="065c9523-857e-41e9-b518-8b380d6abe43"
+            name="MessageOccurrenceSpecification85">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fab61a80-7050-47b7-be5a-8535e2d7b317"
+            name="MessageOccurrenceSpecification84">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="223695be-3be3-423f-9d38-dc8b2983e0b7"
+            name="BehaviorExecutionSpecification36">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6fbd47f8-502c-4e65-826d-a93117ead7b1"
+                LastKnownName="ExecutionOccurrenceSpecification72"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="80a71da1-ab6f-44ca-a518-5a0ba78b3677"
+                LastKnownName="ExecutionOccurrenceSpecification71"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e1a2dead-0f98-4055-ace9-0cfe0897a497"
+                LastKnownName="MessageOccurrenceSpecification87"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="80a71da1-ab6f-44ca-a518-5a0ba78b3677"
+            name="ExecutionOccurrenceSpecification71">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="40a79f21-461b-4fd5-8d87-c8eff5d8eb98"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e1a2dead-0f98-4055-ace9-0cfe0897a497"
+            name="MessageOccurrenceSpecification87">
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bbf69408-f8bf-48ca-9724-ed4cb1c931b0"
+            name="MessageOccurrenceSpecification86">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b1d08cdb-0b9a-45a6-ba23-3e964c4efa04"
+            name="ExecutionOccurrenceSpecification70">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f15bdb47-5eda-4dfb-bf2c-e3ff4fea1299"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="6fbd47f8-502c-4e65-826d-a93117ead7b1"
+            name="ExecutionOccurrenceSpecification72">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e0837696-ddc0-404a-ab1f-931e05b35a32"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="eb4832f8-37f0-43b0-9e10-23076c97f5df"
+            name="BehaviorExecutionSpecification37">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d7fb552b-355f-4889-93cb-5ecced0827e1"
+                LastKnownName="ExecutionOccurrenceSpecification74"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="6cdc036a-ea77-4f2d-a8e8-99c7ec1cf758"
+                LastKnownName="ExecutionOccurrenceSpecification73"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f5f420d-ca93-478d-bfe3-d82dc6ddaa8a"
+                LastKnownName="MessageOccurrenceSpecification89"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6cdc036a-ea77-4f2d-a8e8-99c7ec1cf758"
+            name="ExecutionOccurrenceSpecification73">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ffda1cc9-698e-4e0f-b870-493fba55badb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3f5f420d-ca93-478d-bfe3-d82dc6ddaa8a"
+            name="MessageOccurrenceSpecification89">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b7461c3a-3920-4824-b6cf-2933be6ce3b0"
+            name="MessageOccurrenceSpecification88">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d7fb552b-355f-4889-93cb-5ecced0827e1"
+            name="ExecutionOccurrenceSpecification74">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7f189f9d-f406-465e-9417-d10ca8fb70a3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="100631c4-fd35-4993-a04d-7c24ea89ce19"
+            name="BehaviorExecutionSpecification38">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6fd1e535-fb2d-4fda-b144-494fc0a72b05"
+                LastKnownName="ExecutionOccurrenceSpecification76"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f05a7847-59f7-4a7c-bdbb-37c485611819"
+                LastKnownName="ExecutionOccurrenceSpecification75"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="76014650-b40e-4aa7-9cf8-e205c4afcefe"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9e28ef54-d8c6-475b-b225-f93e1f553511"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f05a7847-59f7-4a7c-bdbb-37c485611819"
+            name="ExecutionOccurrenceSpecification75">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2f8c13b5-defc-4e46-ad9e-98727c66a9a8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8eda182f-29b3-43ed-ab8e-df7d15f43cdc"
+            name="MessageOccurrenceSpecification90">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="76014650-b40e-4aa7-9cf8-e205c4afcefe"
+            name="MessageOccurrenceSpecification91">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8bda228e-19d3-4150-9725-68ac6a2ca34a"
+            name="MessageOccurrenceSpecification93">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9e28ef54-d8c6-475b-b225-f93e1f553511"
+            name="MessageOccurrenceSpecification92">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="6fd1e535-fb2d-4fda-b144-494fc0a72b05"
+            name="ExecutionOccurrenceSpecification76">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cabc76d0-bb18-4cff-83fb-373a6fd29150"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cd74a81d-3b9d-4167-a38f-14d616aa7de2"
+            name="BehaviorExecutionSpecification39">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7b37e62d-8092-42d5-97f6-c31d195172ac"
+                LastKnownName="ExecutionOccurrenceSpecification78"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2185de17-facc-4e94-823d-39ec3b788ace"
+                LastKnownName="ExecutionOccurrenceSpecification77"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="786463d5-c6d8-443d-a053-1abc9e57ca3b"
+                LastKnownName="MessageOccurrenceSpecification95"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2185de17-facc-4e94-823d-39ec3b788ace"
+            name="ExecutionOccurrenceSpecification77">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d19aab58-d5e3-40fb-864f-121f172fca8d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b6c57b1a-db22-4fbd-9eae-42923cd0ca83"
+            name="MessageOccurrenceSpecification94">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="786463d5-c6d8-443d-a053-1abc9e57ca3b"
+            name="MessageOccurrenceSpecification95">
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7b37e62d-8092-42d5-97f6-c31d195172ac"
+            name="ExecutionOccurrenceSpecification78">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="dfbc6095-7d67-40ee-a9d2-15cb6d666f64"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="740c1292-023b-4271-86ca-96ddb4e18f32"
+            name="BehaviorExecutionSpecification43">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d910ba04-3a09-401a-875d-ee041bd3a078"
+                LastKnownName="ExecutionOccurrenceSpecification86"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c2e55325-5db6-431d-a5ee-0771bdf5ae9a"
+                LastKnownName="ExecutionOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d49f2701-cc6c-494a-aed5-b9195396d141"
+                LastKnownName="MessageOccurrenceSpecification105"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c2e55325-5db6-431d-a5ee-0771bdf5ae9a"
+            name="ExecutionOccurrenceSpecification85">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b82e3ecb-9633-4e76-a1bc-1a1e684f7bff"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="52897af5-6626-4cde-a81f-d2acd7e83259"
+            name="MessageOccurrenceSpecification104">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d49f2701-cc6c-494a-aed5-b9195396d141"
+            name="MessageOccurrenceSpecification105">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d910ba04-3a09-401a-875d-ee041bd3a078"
+            name="ExecutionOccurrenceSpecification86">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c6c6a45c-9caa-476b-9197-8e2b8e29b44b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e5f73864-75df-4130-8214-32b53cd4b766"
+            name="BehaviorExecutionSpecification45">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="446620fe-d461-49b8-bdd5-2345e8c1c1ab"
+                LastKnownName="ExecutionOccurrenceSpecification90"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1ba01ce7-a9ae-42d7-b77f-429d2fb3a38a"
+                LastKnownName="ExecutionOccurrenceSpecification89"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b4e9040-57d0-4555-819c-7166a8abe844"
+                LastKnownName="MessageOccurrenceSpecification109"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1ba01ce7-a9ae-42d7-b77f-429d2fb3a38a"
+            name="ExecutionOccurrenceSpecification89">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0766d98c-753c-4fe0-a99c-f2a4dd79b3d1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f6b997d2-e39f-4f5d-b0f9-9e0b98913330"
+            name="MessageOccurrenceSpecification108">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2b4e9040-57d0-4555-819c-7166a8abe844"
+            name="MessageOccurrenceSpecification109">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="446620fe-d461-49b8-bdd5-2345e8c1c1ab"
+            name="ExecutionOccurrenceSpecification90">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bc487dde-0dd2-4e28-ae98-1bc9cbe3f1d2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="19f402d9-62ab-42fc-a20a-b53d01f64c18"
+            name="BehaviorExecutionSpecification48">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f634d6ad-0f58-4c79-bee8-95e40210d4ed"
+                LastKnownName="ExecutionOccurrenceSpecification96"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="04cede0c-20a5-4a8a-8208-da4efeaec39c"
+                LastKnownName="ExecutionOccurrenceSpecification95"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c27ac8b8-e008-419b-901e-e255047c9acc"
+                LastKnownName="MessageOccurrenceSpecification117"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="daab4186-177c-41f8-abfc-b4272561b868"
+                LastKnownName="MessageOccurrenceSpecification118"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="04cede0c-20a5-4a8a-8208-da4efeaec39c"
+            name="ExecutionOccurrenceSpecification95">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="78d3b7bb-c8bc-4489-9ad2-47596c1a4fd4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c27ac8b8-e008-419b-901e-e255047c9acc"
+            name="MessageOccurrenceSpecification117">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="abafc0a3-4949-4e7f-a0b5-c4a17479eee9"
+            name="MessageOccurrenceSpecification116">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="02555f43-a431-498b-a1bb-7fa626e9aae8"
+            name="MessageOccurrenceSpecification119">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="daab4186-177c-41f8-abfc-b4272561b868"
+            name="MessageOccurrenceSpecification118">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f634d6ad-0f58-4c79-bee8-95e40210d4ed"
+            name="ExecutionOccurrenceSpecification96">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f9051e54-bf0b-40fa-b180-54809a4ecb14"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0173b438-665c-4e24-96d3-3bbafc0a572d"
+            name="BehaviorExecutionSpecification49">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="09574c6e-2e51-48a7-b215-5e7d5f1b4449"
+                LastKnownName="ExecutionOccurrenceSpecification98"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5a5a371b-154d-4697-ae3e-e0db310c5998"
+                LastKnownName="ExecutionOccurrenceSpecification97"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4bdf4ab-ef31-44e9-89bf-499dbee2ad23"
+                LastKnownName="MessageOccurrenceSpecification121"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5acfb48c-2431-482e-8a7d-8fb3fc7beaab"
+                LastKnownName="MessageOccurrenceSpecification122"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5a5a371b-154d-4697-ae3e-e0db310c5998"
+            name="ExecutionOccurrenceSpecification97">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9293912b-3ded-4a80-b5e7-2170cd477b3e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f4bdf4ab-ef31-44e9-89bf-499dbee2ad23"
+            name="MessageOccurrenceSpecification121">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="60a50adb-4197-4bc0-91e1-d4c664081aff"
+            name="MessageOccurrenceSpecification120">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="95570800-1217-40c7-8832-e84c546fd510"
+            name="BehaviorExecutionSpecification50">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f5d1c8df-6a47-49c0-b61f-1db7952940dc"
+                LastKnownName="ExecutionOccurrenceSpecification100"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f3bf552a-94d3-401e-940e-f9b89dc0ed23"
+                LastKnownName="ExecutionOccurrenceSpecification99"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f792f08-8baf-4e29-8296-d12898e8d10e"
+                LastKnownName="MessageOccurrenceSpecification123"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f3bf552a-94d3-401e-940e-f9b89dc0ed23"
+            name="ExecutionOccurrenceSpecification99">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="009748e9-e6fe-4c79-8011-360efbac6cc8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5acfb48c-2431-482e-8a7d-8fb3fc7beaab"
+            name="MessageOccurrenceSpecification122">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3f792f08-8baf-4e29-8296-d12898e8d10e"
+            name="MessageOccurrenceSpecification123">
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="09574c6e-2e51-48a7-b215-5e7d5f1b4449"
+            name="ExecutionOccurrenceSpecification98">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="759da200-e35c-41fc-99b1-46a59b4436fc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f5d1c8df-6a47-49c0-b61f-1db7952940dc"
+            name="ExecutionOccurrenceSpecification100">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2da173a1-30ae-4bb4-b12d-0b941364cab8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7c683647-d01e-4ca3-8b3b-d12c92fb31df"
+            name="BehaviorExecutionSpecification51">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f851ab51-be0b-44b6-86e0-aacc7f4770ad"
+                LastKnownName="ExecutionOccurrenceSpecification102"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2ec7fa63-b696-412d-8a7f-c0a4e4d2d717"
+                LastKnownName="ExecutionOccurrenceSpecification101"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="794b3092-2afb-4bb0-8f2d-7c58c1a6a4dd"
+                LastKnownName="MessageOccurrenceSpecification125"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2ec7fa63-b696-412d-8a7f-c0a4e4d2d717"
+            name="ExecutionOccurrenceSpecification101">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="db6c4894-5a35-4af0-bdea-752d9cd96585"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="794b3092-2afb-4bb0-8f2d-7c58c1a6a4dd"
+            name="MessageOccurrenceSpecification125">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="74e0eee9-737b-432a-ada7-c2d7301f408a"
+            name="MessageOccurrenceSpecification124">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f851ab51-be0b-44b6-86e0-aacc7f4770ad"
+            name="ExecutionOccurrenceSpecification102">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7255f931-759b-4689-80c1-3a139776889d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7649217b-280b-4e4a-b6cb-bc8993f4f416"
+            name="BehaviorExecutionSpecification52">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b5e90dde-5329-42fe-84fd-7f1e5f4ddda0"
+                LastKnownName="ExecutionOccurrenceSpecification104"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bd7f18ee-723a-4aee-8469-83788344543b"
+                LastKnownName="ExecutionOccurrenceSpecification103"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="7dad1e03-77cf-4f2f-950d-d94cf5446de5"
+                LastKnownName="MessageOccurrenceSpecification127"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0e1e1a63-5bea-4d74-95ad-711b6d6b48b9"
+                LastKnownName="MessageOccurrenceSpecification128"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bd7f18ee-723a-4aee-8469-83788344543b"
+            name="ExecutionOccurrenceSpecification103">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d546f34d-70d9-40cd-9f76-5e437198b085"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7dad1e03-77cf-4f2f-950d-d94cf5446de5"
+            name="MessageOccurrenceSpecification127">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="503a2c42-32b4-4f64-828f-26c8af142f4d"
+            name="MessageOccurrenceSpecification126">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aabeb9ec-ac49-4516-ad80-859994c1dd77"
+            name="MessageOccurrenceSpecification129">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0e1e1a63-5bea-4d74-95ad-711b6d6b48b9"
+            name="MessageOccurrenceSpecification128">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b5e90dde-5329-42fe-84fd-7f1e5f4ddda0"
+            name="ExecutionOccurrenceSpecification104">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b2841211-2742-41de-a855-7be9eeca79ec"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="31d9138c-3656-4136-afd5-52adb25e357a"
+            name="BehaviorExecutionSpecification53">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a3e16b4-516a-4f4b-89c4-77566b4fac73"
+                LastKnownName="ExecutionOccurrenceSpecification106"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cdb87a98-a1c5-4bfb-897f-5948954e72f1"
+                LastKnownName="ExecutionOccurrenceSpecification105"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="569aea80-8644-4b22-aee8-70a8f1c3a73d"
+                LastKnownName="MessageOccurrenceSpecification131"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cdb87a98-a1c5-4bfb-897f-5948954e72f1"
+            name="ExecutionOccurrenceSpecification105">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="532ab014-0363-420c-b879-bc904340e8a6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="37f1da13-c37e-4f65-8041-af320bf60cf6"
+            name="MessageOccurrenceSpecification130">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="569aea80-8644-4b22-aee8-70a8f1c3a73d"
+            name="MessageOccurrenceSpecification131">
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4a3e16b4-516a-4f4b-89c4-77566b4fac73"
+            name="ExecutionOccurrenceSpecification106">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f9a76b5f-4a99-48db-8731-9dc5d0dee0e6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="eca5c566-7e43-4b57-93a0-8896c869f9a5"
+            name="BehaviorExecutionSpecification56">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="475151da-4c5c-4a21-aae7-d6fda726dd0d"
+                LastKnownName="ExecutionOccurrenceSpecification112"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="6e4e1570-fa1c-42b7-8f23-4875023c13c9"
+                LastKnownName="ExecutionOccurrenceSpecification111"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4f982449-b190-4425-baaf-6a4cf7fad33e"
+                LastKnownName="MessageOccurrenceSpecification139"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6e4e1570-fa1c-42b7-8f23-4875023c13c9"
+            name="ExecutionOccurrenceSpecification111">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8183e4b4-c2d7-4196-bd2b-ec79a3218bca"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4f982449-b190-4425-baaf-6a4cf7fad33e"
+            name="MessageOccurrenceSpecification139">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7ca9be5d-b5c1-4f29-bff3-d9c41e2b4420"
+            name="MessageOccurrenceSpecification138">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="475151da-4c5c-4a21-aae7-d6fda726dd0d"
+            name="ExecutionOccurrenceSpecification112">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="66ed7999-c842-4e45-bd75-655e921b47e7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="61c0d631-5cc7-4b56-b6ea-4a33f10edbef"
+            name="BehaviorExecutionSpecification57">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="14002504-bade-4636-b003-8304ba003a74"
+                LastKnownName="ExecutionOccurrenceSpecification114"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ad440217-420b-41ec-93f1-5d4aad3388f4"
+                LastKnownName="ExecutionOccurrenceSpecification113"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="df3d9e11-19a0-489d-9a11-781512912830"
+                LastKnownName="MessageOccurrenceSpecification141"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ad440217-420b-41ec-93f1-5d4aad3388f4"
+            name="ExecutionOccurrenceSpecification113">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fab14594-f662-4cc8-9864-ef3ea6683ac3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="df3d9e11-19a0-489d-9a11-781512912830"
+            name="MessageOccurrenceSpecification141">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2d102384-26e4-48c9-b543-4a4a4d6381db"
+            name="MessageOccurrenceSpecification140">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="14002504-bade-4636-b003-8304ba003a74"
+            name="ExecutionOccurrenceSpecification114">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="705f6958-508f-4ec9-b940-629ff314ed2c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4f9cef61-96c6-4cdf-849d-579399e52fed"
+            name="BehaviorExecutionSpecification58">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="16728c13-bfc0-4587-965f-c05eb177c29b"
+                LastKnownName="ExecutionOccurrenceSpecification116"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="297be37a-42a4-44e2-9747-a2043c7b529d"
+                LastKnownName="ExecutionOccurrenceSpecification115"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ddac72f-f377-4d6a-832c-05e286382364"
+                LastKnownName="MessageOccurrenceSpecification143"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c6439719-7219-4865-a90c-aeb8c0075b6d"
+                LastKnownName="MessageOccurrenceSpecification144"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="297be37a-42a4-44e2-9747-a2043c7b529d"
+            name="ExecutionOccurrenceSpecification115">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8f87c4df-afc9-460c-8a90-b4213db3c57a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cb4e48a5-bc1e-4691-ad28-d39d8b589352"
+            name="MessageOccurrenceSpecification142">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1ddac72f-f377-4d6a-832c-05e286382364"
+            name="MessageOccurrenceSpecification143">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c13f7192-f935-4894-aa9d-340dded9f5ae"
+            name="MessageOccurrenceSpecification145">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c6439719-7219-4865-a90c-aeb8c0075b6d"
+            name="MessageOccurrenceSpecification144">
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="16728c13-bfc0-4587-965f-c05eb177c29b"
+            name="ExecutionOccurrenceSpecification116">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ec710939-23be-4dce-80d2-714905c0ce4d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3a871add-3496-4782-a51b-8e2af1259a86"
+            name="BehaviorExecutionSpecification59">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4091c2b4-31cb-4a16-ae16-27a4879b8417"
+                LastKnownName="ExecutionOccurrenceSpecification118"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="39317d41-9e81-422a-96de-74cac9c10827"
+                LastKnownName="ExecutionOccurrenceSpecification117"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4da74944-779e-4b9b-ac1c-17d10dbff7a4"
+                LastKnownName="MessageOccurrenceSpecification147"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="39317d41-9e81-422a-96de-74cac9c10827"
+            name="ExecutionOccurrenceSpecification117">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a1ff5597-6b03-49bb-aace-04ad65c2d24d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ec8fd090-0d83-4b51-aed9-4ca2e5834a63"
+            name="MessageOccurrenceSpecification146">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4da74944-779e-4b9b-ac1c-17d10dbff7a4"
+            name="MessageOccurrenceSpecification147">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4091c2b4-31cb-4a16-ae16-27a4879b8417"
+            name="ExecutionOccurrenceSpecification118">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ccd499f0-de3d-4675-9a4b-de727f172962"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8978995c-4a38-4049-8155-4f4a789a94b6"
+            name="BehaviorExecutionSpecification61">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1500438f-e696-4e9e-b84e-dea03d836ac9"
+                LastKnownName="ExecutionOccurrenceSpecification122"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7691bac8-085e-4d33-9554-0d93c65a7656"
+                LastKnownName="ExecutionOccurrenceSpecification121"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="91e398d4-0ec4-4f28-9716-ded8415cb27d"
+                LastKnownName="MessageOccurrenceSpecification151"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fafff546-affc-4767-91c0-77cd075cac5d"
+                LastKnownName="MessageOccurrenceSpecification152"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7691bac8-085e-4d33-9554-0d93c65a7656"
+            name="ExecutionOccurrenceSpecification121">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="667e942e-df8a-41d6-aa0b-7271d9ab747b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="780e617a-34bc-4b2a-8059-0be7666f292b"
+            name="MessageOccurrenceSpecification150">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="91e398d4-0ec4-4f28-9716-ded8415cb27d"
+            name="MessageOccurrenceSpecification151">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fafff546-affc-4767-91c0-77cd075cac5d"
+            name="MessageOccurrenceSpecification152">
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e1eb2643-43bc-422f-9fb5-fb03dd3b0f18"
+            name="MessageOccurrenceSpecification153">
+            <covered>
+              <lifelineMoniker
+                Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1500438f-e696-4e9e-b84e-dea03d836ac9"
+            name="ExecutionOccurrenceSpecification122">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fa471197-a7a8-4d66-9542-da38e30e9fb3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+                LastKnownName="Блок керування"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="3fbd1232-30be-4496-b73e-4d518dc09501"
+            name="Комірник"
+            isActor="false"
+            lifelineDisplayName="Комірник">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f0a3cecd-afd5-4988-a00c-7d6d7b397538"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fab61a80-7050-47b7-be5a-8535e2d7b317"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b7461c3a-3920-4824-b6cf-2933be6ce3b0"
+                LastKnownName="MessageOccurrenceSpecification88"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="52897af5-6626-4cde-a81f-d2acd7e83259"
+                LastKnownName="MessageOccurrenceSpecification104"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f6b997d2-e39f-4f5d-b0f9-9e0b98913330"
+                LastKnownName="MessageOccurrenceSpecification108"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="60a50adb-4197-4bc0-91e1-d4c664081aff"
+                LastKnownName="MessageOccurrenceSpecification120"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="74e0eee9-737b-432a-ada7-c2d7301f408a"
+                LastKnownName="MessageOccurrenceSpecification124"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7ca9be5d-b5c1-4f29-bff3-d9c41e2b4420"
+                LastKnownName="MessageOccurrenceSpecification138"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2d102384-26e4-48c9-b543-4a4a4d6381db"
+                LastKnownName="MessageOccurrenceSpecification140"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ec8fd090-0d83-4b51-aed9-4ca2e5834a63"
+                LastKnownName="MessageOccurrenceSpecification146"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="780e617a-34bc-4b2a-8059-0be7666f292b"
+                LastKnownName="MessageOccurrenceSpecification150"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e1eb2643-43bc-422f-9fb5-fb03dd3b0f18"
+                LastKnownName="MessageOccurrenceSpecification153"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="df9e6197-4ad8-44cf-8c6e-0487ddbfb585"
+            name="Екран"
+            isActor="false"
+            lifelineDisplayName="Екран">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9914051b-acdf-4791-a1d2-c4c174bc8f76"
+                LastKnownName="ExecutionOccurrenceSpecification67"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="12797433-62ce-4662-8c4f-cb4fe1f2f1e2"
+                LastKnownName="ExecutionOccurrenceSpecification68"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="80a71da1-ab6f-44ca-a518-5a0ba78b3677"
+                LastKnownName="ExecutionOccurrenceSpecification71"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6fbd47f8-502c-4e65-826d-a93117ead7b1"
+                LastKnownName="ExecutionOccurrenceSpecification72"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2185de17-facc-4e94-823d-39ec3b788ace"
+                LastKnownName="ExecutionOccurrenceSpecification77"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7b37e62d-8092-42d5-97f6-c31d195172ac"
+                LastKnownName="ExecutionOccurrenceSpecification78"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f3bf552a-94d3-401e-940e-f9b89dc0ed23"
+                LastKnownName="ExecutionOccurrenceSpecification99"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f5d1c8df-6a47-49c0-b61f-1db7952940dc"
+                LastKnownName="ExecutionOccurrenceSpecification100"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="cdb87a98-a1c5-4bfb-897f-5948954e72f1"
+                LastKnownName="ExecutionOccurrenceSpecification105"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4a3e16b4-516a-4f4b-89c4-77566b4fac73"
+                LastKnownName="ExecutionOccurrenceSpecification106"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="5f346099-ac9d-4d40-97a6-c4392a3d5cf5"
+            name="Блок керування"
+            isActor="false"
+            lifelineDisplayName="Блок керування">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="4e3672e1-e162-472c-ac85-aed72dd63a8c"
+                LastKnownName="ExecutionOccurrenceSpecification63"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="82748b36-7d3f-4249-a98f-efb102f4c03f"
+                LastKnownName="ExecutionOccurrenceSpecification64"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="40038b53-741b-472c-837e-77c92ab655fb"
+                LastKnownName="ExecutionOccurrenceSpecification69"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b1d08cdb-0b9a-45a6-ba23-3e964c4efa04"
+                LastKnownName="ExecutionOccurrenceSpecification70"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6cdc036a-ea77-4f2d-a8e8-99c7ec1cf758"
+                LastKnownName="ExecutionOccurrenceSpecification73"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d7fb552b-355f-4889-93cb-5ecced0827e1"
+                LastKnownName="ExecutionOccurrenceSpecification74"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8eda182f-29b3-43ed-ab8e-df7d15f43cdc"
+                LastKnownName="MessageOccurrenceSpecification90"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8bda228e-19d3-4150-9725-68ac6a2ca34a"
+                LastKnownName="MessageOccurrenceSpecification93"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b6c57b1a-db22-4fbd-9eae-42923cd0ca83"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c2e55325-5db6-431d-a5ee-0771bdf5ae9a"
+                LastKnownName="ExecutionOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d910ba04-3a09-401a-875d-ee041bd3a078"
+                LastKnownName="ExecutionOccurrenceSpecification86"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1ba01ce7-a9ae-42d7-b77f-429d2fb3a38a"
+                LastKnownName="ExecutionOccurrenceSpecification89"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="446620fe-d461-49b8-bdd5-2345e8c1c1ab"
+                LastKnownName="ExecutionOccurrenceSpecification90"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="abafc0a3-4949-4e7f-a0b5-c4a17479eee9"
+                LastKnownName="MessageOccurrenceSpecification116"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="02555f43-a431-498b-a1bb-7fa626e9aae8"
+                LastKnownName="MessageOccurrenceSpecification119"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5a5a371b-154d-4697-ae3e-e0db310c5998"
+                LastKnownName="ExecutionOccurrenceSpecification97"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="09574c6e-2e51-48a7-b215-5e7d5f1b4449"
+                LastKnownName="ExecutionOccurrenceSpecification98"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2ec7fa63-b696-412d-8a7f-c0a4e4d2d717"
+                LastKnownName="ExecutionOccurrenceSpecification101"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f851ab51-be0b-44b6-86e0-aacc7f4770ad"
+                LastKnownName="ExecutionOccurrenceSpecification102"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="503a2c42-32b4-4f64-828f-26c8af142f4d"
+                LastKnownName="MessageOccurrenceSpecification126"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="aabeb9ec-ac49-4516-ad80-859994c1dd77"
+                LastKnownName="MessageOccurrenceSpecification129"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="37f1da13-c37e-4f65-8041-af320bf60cf6"
+                LastKnownName="MessageOccurrenceSpecification130"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6e4e1570-fa1c-42b7-8f23-4875023c13c9"
+                LastKnownName="ExecutionOccurrenceSpecification111"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="475151da-4c5c-4a21-aae7-d6fda726dd0d"
+                LastKnownName="ExecutionOccurrenceSpecification112"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ad440217-420b-41ec-93f1-5d4aad3388f4"
+                LastKnownName="ExecutionOccurrenceSpecification113"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="14002504-bade-4636-b003-8304ba003a74"
+                LastKnownName="ExecutionOccurrenceSpecification114"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cb4e48a5-bc1e-4691-ad28-d39d8b589352"
+                LastKnownName="MessageOccurrenceSpecification142"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c13f7192-f935-4894-aa9d-340dded9f5ae"
+                LastKnownName="MessageOccurrenceSpecification145"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="39317d41-9e81-422a-96de-74cac9c10827"
+                LastKnownName="ExecutionOccurrenceSpecification117"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4091c2b4-31cb-4a16-ae16-27a4879b8417"
+                LastKnownName="ExecutionOccurrenceSpecification118"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7691bac8-085e-4d33-9554-0d93c65a7656"
+                LastKnownName="ExecutionOccurrenceSpecification121"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1500438f-e696-4e9e-b84e-dea03d836ac9"
+                LastKnownName="ExecutionOccurrenceSpecification122"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="fca94fd5-266b-4aa6-accb-876d5c1939a5"
+            name="Склад"
+            isActor="false"
+            lifelineDisplayName="Склад">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="f05a7847-59f7-4a7c-bdbb-37c485611819"
+                LastKnownName="ExecutionOccurrenceSpecification75"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6fd1e535-fb2d-4fda-b144-494fc0a72b05"
+                LastKnownName="ExecutionOccurrenceSpecification76"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="04cede0c-20a5-4a8a-8208-da4efeaec39c"
+                LastKnownName="ExecutionOccurrenceSpecification95"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f634d6ad-0f58-4c79-bee8-95e40210d4ed"
+                LastKnownName="ExecutionOccurrenceSpecification96"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bd7f18ee-723a-4aee-8469-83788344543b"
+                LastKnownName="ExecutionOccurrenceSpecification103"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b5e90dde-5329-42fe-84fd-7f1e5f4ddda0"
+                LastKnownName="ExecutionOccurrenceSpecification104"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="297be37a-42a4-44e2-9747-a2043c7b529d"
+                LastKnownName="ExecutionOccurrenceSpecification115"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="16728c13-bfc0-4587-965f-c05eb177c29b"
+                LastKnownName="ExecutionOccurrenceSpecification116"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="fd2dfc41-79d8-448a-b48a-99bdfda3acc0"
+            name="Запуск програми"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f0a3cecd-afd5-4988-a00c-7d6d7b397538"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6e9d117-7a6f-4741-b309-445d7497021d"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2eb342b6-5838-4ad3-a632-8791a5a1ca0d"
+            name="Вивід меню програми"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e25a86f9-0f28-409d-a2da-18f49ba1f143"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2019f0d0-25fd-4987-8b19-b4548d709ff0"
+                LastKnownName="MessageOccurrenceSpecification83"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="905fbf4a-fab8-4910-9739-c9559c007a11"
+            name="Вибір потрібної операції"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fab61a80-7050-47b7-be5a-8535e2d7b317"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="065c9523-857e-41e9-b518-8b380d6abe43"
+                LastKnownName="MessageOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2f6e5c1e-d6c6-4fd3-8c4c-3e0386036e4e"
+            name="Вивід полів для вводу"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bbf69408-f8bf-48ca-9724-ed4cb1c931b0"
+                LastKnownName="MessageOccurrenceSpecification86"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e1a2dead-0f98-4055-ace9-0cfe0897a497"
+                LastKnownName="MessageOccurrenceSpecification87"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c8b511d9-0697-42c7-b9a6-feff4b23d534"
+            name="Ввід ключового слова пошуку"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b7461c3a-3920-4824-b6cf-2933be6ce3b0"
+                LastKnownName="MessageOccurrenceSpecification88"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f5f420d-ca93-478d-bfe3-d82dc6ddaa8a"
+                LastKnownName="MessageOccurrenceSpecification89"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="56df8f56-a76a-4a84-9838-24dc16b01234"
+            name="Пошук товару"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8eda182f-29b3-43ed-ab8e-df7d15f43cdc"
+                LastKnownName="MessageOccurrenceSpecification90"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="76014650-b40e-4aa7-9cf8-e205c4afcefe"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="48397bdd-5cb2-4b52-ae7f-a3b4f5c9c244"
+            name="Повернення результату пошуку"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9e28ef54-d8c6-475b-b225-f93e1f553511"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8bda228e-19d3-4150-9725-68ac6a2ca34a"
+                LastKnownName="MessageOccurrenceSpecification93"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="76598d30-c9ad-49dd-989f-d1ce4a39dd22"
+            name="Вивід інформації про товар"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6c57b1a-db22-4fbd-9eae-42923cd0ca83"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="786463d5-c6d8-443d-a053-1abc9e57ca3b"
+                LastKnownName="MessageOccurrenceSpecification95"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="729daed2-5331-4553-b4a3-8e46687f1dfe"
+            name="Вибір кнопки редагування товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="52897af5-6626-4cde-a81f-d2acd7e83259"
+                LastKnownName="MessageOccurrenceSpecification104"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d49f2701-cc6c-494a-aed5-b9195396d141"
+                LastKnownName="MessageOccurrenceSpecification105"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1e511ea7-bd56-48ed-b13e-a78234125e04"
+            name="Редагування товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f6b997d2-e39f-4f5d-b0f9-9e0b98913330"
+                LastKnownName="MessageOccurrenceSpecification108"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b4e9040-57d0-4555-819c-7166a8abe844"
+                LastKnownName="MessageOccurrenceSpecification109"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="812d0897-bde9-4f6c-9331-ccfb786b6248"
+            name="Внесення змін про товар"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="abafc0a3-4949-4e7f-a0b5-c4a17479eee9"
+                LastKnownName="MessageOccurrenceSpecification116"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c27ac8b8-e008-419b-901e-e255047c9acc"
+                LastKnownName="MessageOccurrenceSpecification117"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4845299b-54f3-49e0-8d1c-ca7efbc6e793"
+            name="Повернення результату"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="daab4186-177c-41f8-abfc-b4272561b868"
+                LastKnownName="MessageOccurrenceSpecification118"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="02555f43-a431-498b-a1bb-7fa626e9aae8"
+                LastKnownName="MessageOccurrenceSpecification119"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4717e9c2-4190-432a-b8f6-127a87f71891"
+            name="Вибір кнопки додавання товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="60a50adb-4197-4bc0-91e1-d4c664081aff"
+                LastKnownName="MessageOccurrenceSpecification120"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4bdf4ab-ef31-44e9-89bf-499dbee2ad23"
+                LastKnownName="MessageOccurrenceSpecification121"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="68a4ace4-aa75-4e44-91c6-131f0641f631"
+            name="Відображення полів для вводу інформації"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5acfb48c-2431-482e-8a7d-8fb3fc7beaab"
+                LastKnownName="MessageOccurrenceSpecification122"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f792f08-8baf-4e29-8296-d12898e8d10e"
+                LastKnownName="MessageOccurrenceSpecification123"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="48dd7bbd-1b56-4d2a-b7d6-46d055ee5453"
+            name="Ввід інформації про новий товар"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="74e0eee9-737b-432a-ada7-c2d7301f408a"
+                LastKnownName="MessageOccurrenceSpecification124"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="794b3092-2afb-4bb0-8f2d-7c58c1a6a4dd"
+                LastKnownName="MessageOccurrenceSpecification125"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="31043da4-d065-4dec-a15e-53ffe2690a75"
+            name="Додавання нового товару"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="503a2c42-32b4-4f64-828f-26c8af142f4d"
+                LastKnownName="MessageOccurrenceSpecification126"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7dad1e03-77cf-4f2f-950d-d94cf5446de5"
+                LastKnownName="MessageOccurrenceSpecification127"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f662c33e-12ab-43a3-a352-6b6c5eda725a"
+            name="Повернення результату про додавання"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0e1e1a63-5bea-4d74-95ad-711b6d6b48b9"
+                LastKnownName="MessageOccurrenceSpecification128"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aabeb9ec-ac49-4516-ad80-859994c1dd77"
+                LastKnownName="MessageOccurrenceSpecification129"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="36d68079-6313-4f09-a350-8c9dbd1bb687"
+            name="Вівід інформації про додавання товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="37f1da13-c37e-4f65-8041-af320bf60cf6"
+                LastKnownName="MessageOccurrenceSpecification130"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="569aea80-8644-4b22-aee8-70a8f1c3a73d"
+                LastKnownName="MessageOccurrenceSpecification131"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d6d1df78-b7d6-4faf-8134-b3b9bb56f709"
+            name="Вибір кнопки видалення товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7ca9be5d-b5c1-4f29-bff3-d9c41e2b4420"
+                LastKnownName="MessageOccurrenceSpecification138"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4f982449-b190-4425-baaf-6a4cf7fad33e"
+                LastKnownName="MessageOccurrenceSpecification139"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4d086bdc-13aa-4621-83d1-831460a22c05"
+            name="Вибір товару для видалення"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2d102384-26e4-48c9-b543-4a4a4d6381db"
+                LastKnownName="MessageOccurrenceSpecification140"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="df3d9e11-19a0-489d-9a11-781512912830"
+                LastKnownName="MessageOccurrenceSpecification141"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7bc444ac-aa10-4d25-bcb7-15e4a960b199"
+            name="Видалення товару"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cb4e48a5-bc1e-4691-ad28-d39d8b589352"
+                LastKnownName="MessageOccurrenceSpecification142"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ddac72f-f377-4d6a-832c-05e286382364"
+                LastKnownName="MessageOccurrenceSpecification143"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b1f487f7-1a99-4770-8264-a60a404742e1"
+            name="Повернення інформації про видалення"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c6439719-7219-4865-a90c-aeb8c0075b6d"
+                LastKnownName="MessageOccurrenceSpecification144"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c13f7192-f935-4894-aa9d-340dded9f5ae"
+                LastKnownName="MessageOccurrenceSpecification145"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d9baa0a6-8d87-4a6f-89f8-96fba1568acf"
+            name="Вибір кнопки друку квитанції"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ec8fd090-0d83-4b51-aed9-4ca2e5834a63"
+                LastKnownName="MessageOccurrenceSpecification146"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4da74944-779e-4b9b-ac1c-17d10dbff7a4"
+                LastKnownName="MessageOccurrenceSpecification147"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dbe04d01-322f-4ac3-9d77-ddd3145b7ec5"
+            name="Вибір потрібної квитанції"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="780e617a-34bc-4b2a-8059-0be7666f292b"
+                LastKnownName="MessageOccurrenceSpecification150"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="91e398d4-0ec4-4f28-9716-ded8415cb27d"
+                LastKnownName="MessageOccurrenceSpecification151"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="121ffb45-39e1-444b-b421-d7333c2206d4"
+            name="Друк квитанції"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fafff546-affc-4767-91c0-77cd075cac5d"
+                LastKnownName="MessageOccurrenceSpecification152"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e1eb2643-43bc-422f-9fb5-fb03dd3b0f18"
+                LastKnownName="MessageOccurrenceSpecification153"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="e6fafa4a-9be6-4a2b-91a7-ec9fd34b71d3"
+        name="Enumeration1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="65941dcd-1b7e-4ca0-9225-bc1d331b5d94"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="707e5da4-d369-4c64-9a73-eb455a6887af"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="27b7b902-2798-4799-9903-15a75e09aa7b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="aba27c6c-73d1-4da9-b49e-e8b770a5f32c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fd3e1120-b711-430f-bb59-cd856a459bf4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f15bdb47-5eda-4dfb-bf2c-e3ff4fea1299"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="40a79f21-461b-4fd5-8d87-c8eff5d8eb98"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e0837696-ddc0-404a-ab1f-931e05b35a32"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ffda1cc9-698e-4e0f-b870-493fba55badb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7f189f9d-f406-465e-9417-d10ca8fb70a3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2f8c13b5-defc-4e46-ad9e-98727c66a9a8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cabc76d0-bb18-4cff-83fb-373a6fd29150"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d19aab58-d5e3-40fb-864f-121f172fca8d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="dfbc6095-7d67-40ee-a9d2-15cb6d666f64"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b82e3ecb-9633-4e76-a1bc-1a1e684f7bff"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c6c6a45c-9caa-476b-9197-8e2b8e29b44b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0766d98c-753c-4fe0-a99c-f2a4dd79b3d1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bc487dde-0dd2-4e28-ae98-1bc9cbe3f1d2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="78d3b7bb-c8bc-4489-9ad2-47596c1a4fd4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f9051e54-bf0b-40fa-b180-54809a4ecb14"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9293912b-3ded-4a80-b5e7-2170cd477b3e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="759da200-e35c-41fc-99b1-46a59b4436fc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="009748e9-e6fe-4c79-8011-360efbac6cc8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2da173a1-30ae-4bb4-b12d-0b941364cab8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="db6c4894-5a35-4af0-bdea-752d9cd96585"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7255f931-759b-4689-80c1-3a139776889d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d546f34d-70d9-40cd-9f76-5e437198b085"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b2841211-2742-41de-a855-7be9eeca79ec"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="532ab014-0363-420c-b879-bc904340e8a6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f9a76b5f-4a99-48db-8731-9dc5d0dee0e6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8183e4b4-c2d7-4196-bd2b-ec79a3218bca"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="66ed7999-c842-4e45-bd75-655e921b47e7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fab14594-f662-4cc8-9864-ef3ea6683ac3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="705f6958-508f-4ec9-b940-629ff314ed2c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8f87c4df-afc9-460c-8a90-b4213db3c57a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ec710939-23be-4dce-80d2-714905c0ce4d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a1ff5597-6b03-49bb-aace-04ad65c2d24d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ccd499f0-de3d-4675-9a4b-de727f172962"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="667e942e-df8a-41d6-aa0b-7271d9ab747b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fa471197-a7a8-4d66-9542-da38e30e9fb3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="1e35bdb3-6093-47dd-9e49-f0def5a5c813"
+        name="Sequence3"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="03de1d12-dc81-4840-bf5d-ba83e9921bbc"
+            name="BehaviorExecutionSpecification70">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="888e8340-d0f5-4e30-9ca2-4e55c7837cad"
+                LastKnownName="ExecutionOccurrenceSpecification140"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3812e8d4-f357-402f-af36-cb0bdaab599a"
+                LastKnownName="ExecutionOccurrenceSpecification139"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="14f17b7d-332d-4b0c-8315-be870553063e"
+                LastKnownName="MessageOccurrenceSpecification175"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3812e8d4-f357-402f-af36-cb0bdaab599a"
+            name="ExecutionOccurrenceSpecification139">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9a871509-bf94-461a-bd38-ca01bf2757a1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="14f17b7d-332d-4b0c-8315-be870553063e"
+            name="MessageOccurrenceSpecification175">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c7da4624-bc05-4c53-b2fc-a7952b9c94c7"
+            name="MessageOccurrenceSpecification174">
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="888e8340-d0f5-4e30-9ca2-4e55c7837cad"
+            name="ExecutionOccurrenceSpecification140">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1cf88425-fbd0-4a6c-bc36-53351081d18c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="325714f4-5937-449b-b00f-3e231505d59c"
+            name="BehaviorExecutionSpecification72">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6281c3f-f6af-49bc-8ea3-51593c1a80e8"
+                LastKnownName="ExecutionOccurrenceSpecification144"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="94c724ca-afbc-41e8-8b0d-cfa44814359f"
+                LastKnownName="ExecutionOccurrenceSpecification143"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="327fa686-a570-4ccc-9659-b6da9164bf3c"
+                LastKnownName="MessageOccurrenceSpecification179"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7368c714-cf46-410b-b5c3-8072b37bb130"
+                LastKnownName="MessageOccurrenceSpecification180"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="94c724ca-afbc-41e8-8b0d-cfa44814359f"
+            name="ExecutionOccurrenceSpecification143">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0e9b5169-a99b-47c4-8b37-a415ee68aa7c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="327fa686-a570-4ccc-9659-b6da9164bf3c"
+            name="MessageOccurrenceSpecification179">
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2ede06d9-8236-40b7-9574-46eb03b0eaf4"
+            name="MessageOccurrenceSpecification178">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c9ff109d-8a24-4fab-bb85-301678a8a59f"
+            name="MessageOccurrenceSpecification181">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7368c714-cf46-410b-b5c3-8072b37bb130"
+            name="MessageOccurrenceSpecification180">
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a6281c3f-f6af-49bc-8ea3-51593c1a80e8"
+            name="ExecutionOccurrenceSpecification144">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ce977c75-27d1-4fed-a459-f2ea379ad246"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="53b887c5-683d-42c5-b1cd-b14110961cc1"
+            name="BehaviorExecutionSpecification73">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3b20dd7c-ecf0-40f6-a9d8-900878d8fc00"
+                LastKnownName="ExecutionOccurrenceSpecification146"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d1adeb23-5d8c-4ac1-b57f-1b0533988125"
+                LastKnownName="ExecutionOccurrenceSpecification145"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ee63d25-30d3-4923-929c-d1ac49f5f0f0"
+                LastKnownName="MessageOccurrenceSpecification183"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d1adeb23-5d8c-4ac1-b57f-1b0533988125"
+            name="ExecutionOccurrenceSpecification145">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="db707e25-29d2-4a5a-94d0-d2fed4f468df"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6ee63d25-30d3-4923-929c-d1ac49f5f0f0"
+            name="MessageOccurrenceSpecification183">
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4eee483d-26a8-40c6-b2c0-9196abb23c3d"
+            name="MessageOccurrenceSpecification182">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3b20dd7c-ecf0-40f6-a9d8-900878d8fc00"
+            name="ExecutionOccurrenceSpecification146">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4b9e1d9b-5137-4efb-b263-a7b53bec46e7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="ab409e90-ddb7-4fa4-8ecc-fe7bdaf75a9d"
+            name="BehaviorExecutionSpecification35">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="77a22858-dd89-4a6b-8bd0-2bcb6d689b25"
+                LastKnownName="ExecutionOccurrenceSpecification70"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="946229d5-2c14-48b7-8c8b-4bddb32177a3"
+                LastKnownName="ExecutionOccurrenceSpecification69"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ad4f6e77-4201-4e55-a778-e0a7dd8b2206"
+                LastKnownName="MessageOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="946229d5-2c14-48b7-8c8b-4bddb32177a3"
+            name="ExecutionOccurrenceSpecification69">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cec7ef04-4d2b-47bf-a945-4e43450adff5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ad4f6e77-4201-4e55-a778-e0a7dd8b2206"
+            name="MessageOccurrenceSpecification85">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fbdd3ef3-4804-4ad1-a94e-71de4f60547f"
+            name="MessageOccurrenceSpecification84">
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="77a22858-dd89-4a6b-8bd0-2bcb6d689b25"
+            name="ExecutionOccurrenceSpecification70">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="76162909-3219-4152-94f9-cd5a5c7a8a04"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a551f12f-f277-43fb-81bf-138cb25c47f4"
+            name="BehaviorExecutionSpecification68">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="bee0b8d6-e4af-4a5c-899e-37cbf46d24f9"
+                LastKnownName="ExecutionOccurrenceSpecification136"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="55ccdd22-0057-4bcb-b079-f43f27b2122f"
+                LastKnownName="ExecutionOccurrenceSpecification135"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4fd693a8-bb64-4e7a-97e0-dcd331a77af2"
+                LastKnownName="MessageOccurrenceSpecification169"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9214b52b-d5ce-4d9b-bec7-120b865df3c0"
+                LastKnownName="MessageOccurrenceSpecification170"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="55ccdd22-0057-4bcb-b079-f43f27b2122f"
+            name="ExecutionOccurrenceSpecification135">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b88e17f4-1939-4568-a79d-b187511feb62"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="02d0011e-ac08-40b8-9f71-0b18c6672a1b"
+            name="MessageOccurrenceSpecification168">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4fd693a8-bb64-4e7a-97e0-dcd331a77af2"
+            name="MessageOccurrenceSpecification169">
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9214b52b-d5ce-4d9b-bec7-120b865df3c0"
+            name="MessageOccurrenceSpecification170">
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="610a4248-a05a-4d14-95cf-243d323204ff"
+            name="MessageOccurrenceSpecification171">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="bee0b8d6-e4af-4a5c-899e-37cbf46d24f9"
+            name="ExecutionOccurrenceSpecification136">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f50056fb-7b81-4e7b-a891-4a4923c9c56e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+                LastKnownName="Склад"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0460a63d-b387-4847-95fa-96cccbca4e34"
+            name="BehaviorExecutionSpecification69">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="674a4903-1feb-4fc7-94f0-142854960745"
+                LastKnownName="ExecutionOccurrenceSpecification138"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1e620ddf-258e-4ae2-bcbc-c1183e40b239"
+                LastKnownName="ExecutionOccurrenceSpecification137"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="eb12138c-283b-4852-945b-bac4692f663d"
+                LastKnownName="MessageOccurrenceSpecification173"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1e620ddf-258e-4ae2-bcbc-c1183e40b239"
+            name="ExecutionOccurrenceSpecification137">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ed6bdb27-2b31-469e-af93-3a5568728682"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="eb12138c-283b-4852-945b-bac4692f663d"
+            name="MessageOccurrenceSpecification173">
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e7b9b635-f0f0-4aa6-8578-50e17f4e432c"
+            name="MessageOccurrenceSpecification172">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="674a4903-1feb-4fc7-94f0-142854960745"
+            name="ExecutionOccurrenceSpecification138">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8c852947-7107-40cd-a1bd-79e306376993"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d9170444-ec95-4210-8499-8b67590353f9"
+            name="BehaviorExecutionSpecification74">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f9140879-29e4-43fd-af6a-b59c1f36f842"
+                LastKnownName="ExecutionOccurrenceSpecification148"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cb73325a-f840-41da-94d4-60232698e525"
+                LastKnownName="ExecutionOccurrenceSpecification147"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3212153d-311b-4b2e-a706-a0280945c209"
+                LastKnownName="MessageOccurrenceSpecification185"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cb73325a-f840-41da-94d4-60232698e525"
+            name="ExecutionOccurrenceSpecification147">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="345d7b06-c417-45f6-8d26-dd881fc92a0f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3212153d-311b-4b2e-a706-a0280945c209"
+            name="MessageOccurrenceSpecification185">
+            <covered>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b07bb90d-9435-450e-b1d4-636e763324f9"
+            name="MessageOccurrenceSpecification184">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f9140879-29e4-43fd-af6a-b59c1f36f842"
+            name="ExecutionOccurrenceSpecification148">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="608cca99-9317-4bfa-8e6d-9e8b29b74ccc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f62f3ebc-7811-4f3c-bdd8-b7a00370aeb0"
+            name="BehaviorExecutionSpecification75">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="cdb14c40-b702-4094-86c5-fcba839a7bb6"
+                LastKnownName="ExecutionOccurrenceSpecification150"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d34761a6-206e-4f84-a328-d9e6e3c21682"
+                LastKnownName="ExecutionOccurrenceSpecification149"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f95c702e-6349-4527-85b7-ea9a518add8d"
+                LastKnownName="MessageOccurrenceSpecification187"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d34761a6-206e-4f84-a328-d9e6e3c21682"
+            name="ExecutionOccurrenceSpecification149">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d39cc455-f1dd-4c6d-b9f8-9ba1e0cb9dc6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="782a8a3e-05fb-4087-8e06-01edadceda9d"
+            name="MessageOccurrenceSpecification186">
+            <covered>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f95c702e-6349-4527-85b7-ea9a518add8d"
+            name="MessageOccurrenceSpecification187">
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="86057fb3-4745-4902-a2b7-37dbe29f1990"
+            name="BehaviorExecutionSpecification76">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c03b8f92-6f53-4c3a-bbd4-47a07792aae5"
+                LastKnownName="ExecutionOccurrenceSpecification152"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="105efbba-7fe9-4daf-814e-2767d8620651"
+                LastKnownName="ExecutionOccurrenceSpecification151"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="bd8a3de1-9c33-4a08-88eb-81a28cef557b"
+                LastKnownName="MessageOccurrenceSpecification189"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="105efbba-7fe9-4daf-814e-2767d8620651"
+            name="ExecutionOccurrenceSpecification151">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="15046695-df45-41cc-b415-f80173bfafef"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f98ef30e-0466-416b-853a-6868e2f26a9a"
+            name="MessageOccurrenceSpecification188">
+            <covered>
+              <lifelineMoniker
+                Id="65156a98-8127-443b-9f86-b2a245d4a659"
+                LastKnownName="Квитанція"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bd8a3de1-9c33-4a08-88eb-81a28cef557b"
+            name="MessageOccurrenceSpecification189">
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="cdb14c40-b702-4094-86c5-fcba839a7bb6"
+            name="ExecutionOccurrenceSpecification150">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cd572795-86f4-467a-b43a-53ef7ba3507a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+                LastKnownName="Адміністратор"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c03b8f92-6f53-4c3a-bbd4-47a07792aae5"
+            name="ExecutionOccurrenceSpecification152">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a969082c-3445-47de-b194-dc2fb0640457"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="3029ad5c-8935-46ac-91b6-ce0a605a4355"
+            name="Адміністратор"
+            isActor="false"
+            lifelineDisplayName="Адміністратор">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c7da4624-bc05-4c53-b2fc-a7952b9c94c7"
+                LastKnownName="MessageOccurrenceSpecification174"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d1adeb23-5d8c-4ac1-b57f-1b0533988125"
+                LastKnownName="ExecutionOccurrenceSpecification145"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3b20dd7c-ecf0-40f6-a9d8-900878d8fc00"
+                LastKnownName="ExecutionOccurrenceSpecification146"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fbdd3ef3-4804-4ad1-a94e-71de4f60547f"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1e620ddf-258e-4ae2-bcbc-c1183e40b239"
+                LastKnownName="ExecutionOccurrenceSpecification137"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="674a4903-1feb-4fc7-94f0-142854960745"
+                LastKnownName="ExecutionOccurrenceSpecification138"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d34761a6-206e-4f84-a328-d9e6e3c21682"
+                LastKnownName="ExecutionOccurrenceSpecification149"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="cdb14c40-b702-4094-86c5-fcba839a7bb6"
+                LastKnownName="ExecutionOccurrenceSpecification150"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="9c4095e3-9fa2-4a0c-be22-6e6b18daaa55"
+            name="Комірник"
+            isActor="false"
+            lifelineDisplayName="Комірник">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="3812e8d4-f357-402f-af36-cb0bdaab599a"
+                LastKnownName="ExecutionOccurrenceSpecification139"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="888e8340-d0f5-4e30-9ca2-4e55c7837cad"
+                LastKnownName="ExecutionOccurrenceSpecification140"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2ede06d9-8236-40b7-9574-46eb03b0eaf4"
+                LastKnownName="MessageOccurrenceSpecification178"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c9ff109d-8a24-4fab-bb85-301678a8a59f"
+                LastKnownName="MessageOccurrenceSpecification181"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4eee483d-26a8-40c6-b2c0-9196abb23c3d"
+                LastKnownName="MessageOccurrenceSpecification182"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="946229d5-2c14-48b7-8c8b-4bddb32177a3"
+                LastKnownName="ExecutionOccurrenceSpecification69"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="77a22858-dd89-4a6b-8bd0-2bcb6d689b25"
+                LastKnownName="ExecutionOccurrenceSpecification70"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="02d0011e-ac08-40b8-9f71-0b18c6672a1b"
+                LastKnownName="MessageOccurrenceSpecification168"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="610a4248-a05a-4d14-95cf-243d323204ff"
+                LastKnownName="MessageOccurrenceSpecification171"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e7b9b635-f0f0-4aa6-8578-50e17f4e432c"
+                LastKnownName="MessageOccurrenceSpecification172"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b07bb90d-9435-450e-b1d4-636e763324f9"
+                LastKnownName="MessageOccurrenceSpecification184"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="105efbba-7fe9-4daf-814e-2767d8620651"
+                LastKnownName="ExecutionOccurrenceSpecification151"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c03b8f92-6f53-4c3a-bbd4-47a07792aae5"
+                LastKnownName="ExecutionOccurrenceSpecification152"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="65156a98-8127-443b-9f86-b2a245d4a659"
+            name="Квитанція"
+            isActor="false"
+            lifelineDisplayName="Квитанція">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="cb73325a-f840-41da-94d4-60232698e525"
+                LastKnownName="ExecutionOccurrenceSpecification147"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f9140879-29e4-43fd-af6a-b59c1f36f842"
+                LastKnownName="ExecutionOccurrenceSpecification148"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="782a8a3e-05fb-4087-8e06-01edadceda9d"
+                LastKnownName="MessageOccurrenceSpecification186"
+                LastKnownLocation="ipz_lba3.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f98ef30e-0466-416b-853a-6868e2f26a9a"
+                LastKnownName="MessageOccurrenceSpecification188"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="b55f43fd-d267-4d31-9643-b70807b9df4a"
+            name="Склад"
+            isActor="false"
+            lifelineDisplayName="Склад">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="94c724ca-afbc-41e8-8b0d-cfa44814359f"
+                LastKnownName="ExecutionOccurrenceSpecification143"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a6281c3f-f6af-49bc-8ea3-51593c1a80e8"
+                LastKnownName="ExecutionOccurrenceSpecification144"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="55ccdd22-0057-4bcb-b079-f43f27b2122f"
+                LastKnownName="ExecutionOccurrenceSpecification135"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bee0b8d6-e4af-4a5c-899e-37cbf46d24f9"
+                LastKnownName="ExecutionOccurrenceSpecification136"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="ab3c2d93-f8b3-43aa-88ac-d793946fcf97"
+            name="Запит на перегляд товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c7da4624-bc05-4c53-b2fc-a7952b9c94c7"
+                LastKnownName="MessageOccurrenceSpecification174"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="14f17b7d-332d-4b0c-8315-be870553063e"
+                LastKnownName="MessageOccurrenceSpecification175"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="38bced82-fa38-45c9-ad30-16fc5fd27816"
+            name="Пошук товару для перегляду"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ede06d9-8236-40b7-9574-46eb03b0eaf4"
+                LastKnownName="MessageOccurrenceSpecification178"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="327fa686-a570-4ccc-9659-b6da9164bf3c"
+                LastKnownName="MessageOccurrenceSpecification179"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ca850e73-fb27-457f-9815-140bfe4f8b50"
+            name="Повернення результату пошуку"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7368c714-cf46-410b-b5c3-8072b37bb130"
+                LastKnownName="MessageOccurrenceSpecification180"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c9ff109d-8a24-4fab-bb85-301678a8a59f"
+                LastKnownName="MessageOccurrenceSpecification181"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5c65c120-7a5a-46de-9c50-b5e940ef1e1b"
+            name="Видача інфорації про товар"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4eee483d-26a8-40c6-b2c0-9196abb23c3d"
+                LastKnownName="MessageOccurrenceSpecification182"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ee63d25-30d3-4923-929c-d1ac49f5f0f0"
+                LastKnownName="MessageOccurrenceSpecification183"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5f69bbdd-688c-4983-9aa9-4cc1c37aa363"
+            name="Запит на видачу товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fbdd3ef3-4804-4ad1-a94e-71de4f60547f"
+                LastKnownName="MessageOccurrenceSpecification84"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ad4f6e77-4201-4e55-a778-e0a7dd8b2206"
+                LastKnownName="MessageOccurrenceSpecification85"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="26d442a6-5a6d-4a3f-b456-0da8b00d9546"
+            name="Перевірка на наявність даного товару"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="02d0011e-ac08-40b8-9f71-0b18c6672a1b"
+                LastKnownName="MessageOccurrenceSpecification168"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4fd693a8-bb64-4e7a-97e0-dcd331a77af2"
+                LastKnownName="MessageOccurrenceSpecification169"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="715c5e99-474e-4f90-9a90-738d7f8d016f"
+            name="Повернення результат пошуку"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9214b52b-d5ce-4d9b-bec7-120b865df3c0"
+                LastKnownName="MessageOccurrenceSpecification170"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="610a4248-a05a-4d14-95cf-243d323204ff"
+                LastKnownName="MessageOccurrenceSpecification171"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7e3d2c39-84f3-4101-bc3d-61aab270ff53"
+            name="Видача товару"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e7b9b635-f0f0-4aa6-8578-50e17f4e432c"
+                LastKnownName="MessageOccurrenceSpecification172"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="eb12138c-283b-4852-945b-bac4692f663d"
+                LastKnownName="MessageOccurrenceSpecification173"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cb3611e5-0a45-4155-8c02-db776a663b36"
+            name="Друк квитанції про видачу"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b07bb90d-9435-450e-b1d4-636e763324f9"
+                LastKnownName="MessageOccurrenceSpecification184"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3212153d-311b-4b2e-a706-a0280945c209"
+                LastKnownName="MessageOccurrenceSpecification185"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="74ba882a-6b62-4a61-9ace-9feee6e83a89"
+            name="Друк квитанції"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="782a8a3e-05fb-4087-8e06-01edadceda9d"
+                LastKnownName="MessageOccurrenceSpecification186"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f95c702e-6349-4527-85b7-ea9a518add8d"
+                LastKnownName="MessageOccurrenceSpecification187"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ed04f189-e642-4d87-8d85-2e71dd5d13b3"
+            name="Друк квитанції"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f98ef30e-0466-416b-853a-6868e2f26a9a"
+                LastKnownName="MessageOccurrenceSpecification188"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bd8a3de1-9c33-4a08-88eb-81a28cef557b"
+                LastKnownName="MessageOccurrenceSpecification189"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cec7ef04-4d2b-47bf-a945-4e43450adff5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="76162909-3219-4152-94f9-cd5a5c7a8a04"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="86e3ad6d-f453-4f66-84e8-a07d6bb4f12b"
+        name="Sequence4"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="58a5ace1-6dd8-4cfa-bc85-6dc813110255"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f5c73321-0af4-4640-b83f-a8371ef2c858"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1309d48f-2940-4904-9ac8-a8013f741e7b"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="ipz_lba3.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7e6ff7a3-d01d-437f-b2e0-dcbf1fd0c467"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="ipz_lba3.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="55ab662b-c7ee-4721-9fc8-72d7cb69b9b4"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ipz_lba3.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7e6ff7a3-d01d-437f-b2e0-dcbf1fd0c467"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="dce40dd3-74c4-47fb-b3f8-5414ad8acbac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f5c73321-0af4-4640-b83f-a8371ef2c858"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7022f025-81b9-4ffa-9564-40e4a9eb4d0c"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="f1d88446-d9c2-4d42-9629-9d3a00e89e75"
+                LastKnownName="Екран"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="55ab662b-c7ee-4721-9fc8-72d7cb69b9b4"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="f5c73321-0af4-4640-b83f-a8371ef2c858"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1309d48f-2940-4904-9ac8-a8013f741e7b"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4c2e1e53-cff3-4e74-82bc-fd2d3bc85d65"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ipz_lba3.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f5c73321-0af4-4640-b83f-a8371ef2c858"
+                LastKnownName="Комірник"
+                LastKnownLocation="ipz_lba3.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="f5c73321-0af4-4640-b83f-a8371ef2c858"
+            name="Комірник"
+            isActor="false"
+            lifelineDisplayName="Комірник">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7e6ff7a3-d01d-437f-b2e0-dcbf1fd0c467"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="ipz_lba3.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1309d48f-2940-4904-9ac8-a8013f741e7b"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f1d88446-d9c2-4d42-9629-9d3a00e89e75"
+            name="Екран"
+            isActor="false"
+            lifelineDisplayName="Екран">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="7022f025-81b9-4ffa-9564-40e4a9eb4d0c"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ipz_lba3.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="9c3ae564-dc02-40f1-8e9f-0865f80ae16a"
+            name="Сервер"
+            isActor="false"
+            lifelineDisplayName="Сервер" />
+        </lifelines>
+        <messages>
+          <message
+            Id="15e3e2a5-0293-4ae1-87c7-d7a8e82d0d39"
+            name="Відображення меню програми"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7022f025-81b9-4ffa-9564-40e4a9eb4d0c"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ipz_lba3.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="55ab662b-c7ee-4721-9fc8-72d7cb69b9b4"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ipz_lba3.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="dce40dd3-74c4-47fb-b3f8-5414ad8acbac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4c2e1e53-cff3-4e74-82bc-fd2d3bc85d65"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b88e17f4-1939-4568-a79d-b187511feb62"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f50056fb-7b81-4e7b-a891-4a4923c9c56e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ed6bdb27-2b31-469e-af93-3a5568728682"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8c852947-7107-40cd-a1bd-79e306376993"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9a871509-bf94-461a-bd38-ca01bf2757a1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1cf88425-fbd0-4a6c-bc36-53351081d18c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0e9b5169-a99b-47c4-8b37-a415ee68aa7c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ce977c75-27d1-4fed-a459-f2ea379ad246"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="db707e25-29d2-4a5a-94d0-d2fed4f468df"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4b9e1d9b-5137-4efb-b263-a7b53bec46e7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="345d7b06-c417-45f6-8d26-dd881fc92a0f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="608cca99-9317-4bfa-8e6d-9e8b29b74ccc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d39cc455-f1dd-4c6d-b9f8-9ba1e0cb9dc6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cd572795-86f4-467a-b43a-53ef7ba3507a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="15046695-df45-41cc-b415-f80173bfafef"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a969082c-3445-47de-b194-dc2fb0640457"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

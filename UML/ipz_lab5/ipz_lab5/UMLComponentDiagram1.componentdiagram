@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="ed02e514-d19a-440d-8150-662a77b62595" name="UMLComponentDiagram1" linkedPackageId="109c4dcb-06fe-4a84-9f0a-2b0bdd6faf72" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="5dfa34ae-b0bc-4c8d-ab37-73ed2a25373c">
+      <elementDefinition Id="f7a470a5-31f7-46ba-8c1f-dcba140b1c3b" />
+      <body>Обов'язковий інтерфейс</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="0bfe6bbd-8f8b-4da4-b4b7-f68642220a27" name="Клієнтська честина" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="70348175-712a-48ee-a7a2-75fdd57e5fec" />
+        <ownedAttributesInternal>
+          <part Id="af67b5cb-a0f8-4374-8721-defcb46bdd49" name="Адмінастратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="9a08a0d3-8108-46e6-bf0c-b7a12dec24cc" />
+            <type_NamedElement>
+              <componentMoniker Id="39e751ef-f81d-4806-a279-8f9e9de7e2e1" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+          <part Id="47642713-24f2-4c86-8e83-f05961fe2a4a" name="Квитанція" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="976fbf1e-c818-40ff-abe3-5cf5f191cfe4" />
+            <type_NamedElement>
+              <componentMoniker Id="cc77988b-a53a-4b8d-b573-db52a3c0fcbe" LastKnownName="Component6" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface Id="d91b2148-52a4-4f47-a75c-f55ba72298b4" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="4cf1674c-0cd4-456f-8e7f-1306d735481d" />
+            <type_NamedElement>
+              <interfaceMoniker Id="a35965b2-ae88-4e17-9823-efbe228f3b49" LastKnownName="Interface5" />
+            </type_NamedElement>
+          </requiredInterface>
+          <part Id="e5d24da2-4c09-4c04-918e-a0a91283bad8" name="Комірник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="777958fd-e7a1-44c6-824a-ce46dda461b1" />
+            <type_NamedElement>
+              <componentMoniker Id="5d850450-2b97-404c-965b-de1d2def133f" LastKnownName="Component11" />
+            </type_NamedElement>
+          </part>
+          <part Id="0c5a9d25-fe51-40e1-9f84-95f23ec03060" name="Екран" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="8008646e-2fbf-433c-b50a-b8430fda7acf" />
+            <type_NamedElement>
+              <componentMoniker Id="8c504189-c513-49db-8d48-433c1abcd57f" LastKnownName="Component8" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="39e751ef-f81d-4806-a279-8f9e9de7e2e1" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2828f0e2-8e9e-4c89-a1d6-80ae1e96c63e" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="60e83d43-1dbc-45bd-9403-a9f8240e4dfc" name="Серверна частина" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="91f7cb1e-5c40-47ed-ad75-b1928855b3e9" />
+        <ownedAttributesInternal>
+          <part Id="4189b22e-cc46-4ce8-afbb-a838595123d1" name="Товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="96121295-645c-4822-b261-bff908e11cde" />
+            <type_NamedElement>
+              <componentMoniker Id="9c863750-3ff2-4a97-9eec-d1b9d38014b3" LastKnownName="Component4" />
+            </type_NamedElement>
+          </part>
+          <part Id="28675efe-efd1-4c94-838b-9547adaf7838" name="Склад" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="e628b936-724a-4f32-9621-2d0d90bcdf55" />
+            <type_NamedElement>
+              <componentMoniker Id="3e303453-0916-4239-b034-820a724ac47a" LastKnownName="Component5" />
+            </type_NamedElement>
+          </part>
+          <part Id="57be7a34-da36-40fb-9807-aad6b4695a84" name="Блок керування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="f4104111-0349-4fb2-8fee-21c6c0521d46" />
+            <type_NamedElement>
+              <componentMoniker Id="c1e9fbb9-91c0-4a9f-bb3b-2c9bcf6b378b" LastKnownName="Component7" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="9c863750-3ff2-4a97-9eec-d1b9d38014b3" name="Component4" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="871ca430-bd7c-4efa-bfc4-62e1b9e0f0ab" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="3e303453-0916-4239-b034-820a724ac47a" name="Component5" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c7f22011-b09e-460c-8570-28a401c19eba" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="cc77988b-a53a-4b8d-b573-db52a3c0fcbe" name="Component6" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e367bb65-500d-453c-8c89-29f94a66b034" />
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="a35965b2-ae88-4e17-9823-efbe228f3b49" name="Interface5" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="774a4b49-9657-49ec-875e-025cb45a91e0" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="5d850450-2b97-404c-965b-de1d2def133f" name="Component11" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="45396df7-3512-49da-9d1a-2fa720272dea" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="c1e9fbb9-91c0-4a9f-bb3b-2c9bcf6b378b" name="Component7" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b400d048-c450-4626-9322-1f06bce90d14" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="8c504189-c513-49db-8d48-433c1abcd57f" name="Component8" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1ac864b5-2eaf-440c-a965-b18454500533" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="109c4dcb-06fe-4a84-9f0a-2b0bdd6faf72" name="ipz_lab5">
+    <elementDefinition Id="95266194-0771-42cb-acc7-843034f68de7" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6d6adadb-ae31-4992-8efd-b3d55fe4bb39">
+        <profileInstance Id="2fb04c53-fb7b-4bb2-898a-a0ef3b68ffa4" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="aacb12f1-e0d8-4619-8a64-3f15c9394164">
+        <profileInstance Id="6240122d-60bd-45b5-ba03-5e58103331bd" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

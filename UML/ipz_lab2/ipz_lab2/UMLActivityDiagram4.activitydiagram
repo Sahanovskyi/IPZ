@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="79d77bbf-a0aa-42e5-8986-9b6c8ed00501" name="Activity4" linkedPackageId="2ddd35d9-7eb8-49c1-8b1a-d201401ba86f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="59254748-a2a9-4160-9297-f7d8f924a734">
+      <elementDefinition Id="d129efd4-c7d8-4386-a3c5-91ef2e2c1bb2" />
+      <body>Перевірка чи товар знайдений</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="6ec9f18f-dbf1-4680-b87c-10074353258f" LastKnownName="Decision11" />
+      </annotatedElements>
+    </comment>
+    <comment Id="79d82ff5-5b32-4f51-b7dd-db153536d38b">
+      <elementDefinition Id="481d81aa-042b-4f03-b802-b2cc102b9ccf" />
+      <body>Знайдено</body>
+    </comment>
+    <comment Id="8490ff70-4715-4350-a01f-3885ed47e346">
+      <elementDefinition Id="45772d06-978b-40a5-9bf0-c1c08a752e9e" />
+      <body>Не знайдено</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="26e3755f-f729-41be-b721-6fd7e92333b1">
+      <profileInstance Id="3dce315b-92be-49f1-b0e0-68b496ffacca" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="faa1c70d-42a4-4f59-b0f8-85c498a5a746">
+      <profileInstance Id="8db06377-6469-4eb8-a0c2-65e13a694d33" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="6cc195ff-21b9-476f-99f2-9d87b68041a6" name="Activity4" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="55f30a17-094b-4885-a950-3edfeff155c5" />
+        <nodes>
+          <initialNode Id="aa2ccca4-4bef-46b0-8638-43b1b59b06cf" name="Initial1" isLeaf="false">
+            <elementDefinition Id="fcae8f10-ec36-4853-b9ba-60bcee41c935" />
+            <flowNodeTargets>
+              <controlFlow Id="a02f0103-e8b4-47ba-8303-2d80384251bf" isLeaf="false">
+                <opaqueActionMoniker Id="f8ec83ca-f948-49a4-856a-ad5b2fd2b322" LastKnownName="Ввід імені товару для видалення" />
+                <elementDefinition Id="0e2fbe8b-da6d-46f6-a48e-d75b974566ff" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f8ec83ca-f948-49a4-856a-ad5b2fd2b322" name="Ввід імені товару для видалення" isLeaf="false">
+            <elementDefinition Id="9ff529ca-a96f-412f-9029-dfb9d4c37430" />
+            <flowNodeTargets>
+              <controlFlow Id="bfb65dd0-0e73-4db4-9c9a-844b458cec08" isLeaf="false">
+                <opaqueActionMoniker Id="09ba6634-997b-42c4-ba99-594ba51ca455" LastKnownName="Пошук товару" />
+                <elementDefinition Id="4affceea-d8b5-48dd-a774-607acfbff116" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="09ba6634-997b-42c4-ba99-594ba51ca455" name="Пошук товару" isLeaf="false">
+            <elementDefinition Id="9ff2ac6a-28e2-4be5-976d-e39db1b02841" />
+            <flowNodeTargets>
+              <controlFlow Id="e4d2db0f-d93d-4f26-b4f7-6c75a88977a1" isLeaf="false">
+                <decisionNodeMoniker Id="6ec9f18f-dbf1-4680-b87c-10074353258f" LastKnownName="Decision11" />
+                <elementDefinition Id="7383155b-3c41-456f-bf66-33b03e3fb177" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="549c3403-0a1e-44da-9229-0cea99936c4e" name="Вивід інформації про помилку пошуку" isLeaf="false">
+            <elementDefinition Id="ddf3c345-631c-4534-a765-56a66c9a7b2f" />
+            <flowNodeTargets>
+              <controlFlow Id="0a86f91d-0ced-422c-bc63-21ddf5db2037" isLeaf="false">
+                <opaqueActionMoniker Id="f8ec83ca-f948-49a4-856a-ad5b2fd2b322" LastKnownName="Ввід імені товару для видалення" />
+                <elementDefinition Id="c603fe6b-b4d8-473f-a9f5-58152bcb92eb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="6ec9f18f-dbf1-4680-b87c-10074353258f" name="Decision11" isLeaf="false">
+            <elementDefinition Id="84893481-3244-430a-a300-d1c7575e6067" />
+            <flowNodeTargets>
+              <controlFlow Id="1f9e6c6f-5985-4d45-a2f7-40f3982dc9d4" isLeaf="false">
+                <opaqueActionMoniker Id="ec01ab12-b725-4fda-b289-8fc5c2fae524" LastKnownName="Видалення товару" />
+                <elementDefinition Id="0c875487-27eb-4a33-a802-f46cef7d13c2" />
+              </controlFlow>
+              <controlFlow Id="b9ec3a42-be37-43f4-bbd6-1c94fe8a1921" isLeaf="false">
+                <opaqueActionMoniker Id="549c3403-0a1e-44da-9229-0cea99936c4e" LastKnownName="Вивід інформації про помилку пошуку" />
+                <elementDefinition Id="af880974-2ce0-48e0-a705-f6ca1914947d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="ec01ab12-b725-4fda-b289-8fc5c2fae524" name="Видалення товару" isLeaf="false">
+            <elementDefinition Id="e18fb377-ba76-4892-b718-20ce94dd3c04" />
+            <flowNodeTargets>
+              <controlFlow Id="a27c3c38-3c1c-46ea-8c13-f5ee2be51889" isLeaf="false">
+                <opaqueActionMoniker Id="2de3f4b7-520b-460b-999f-a8db24d35e2a" LastKnownName="Вихід з системи" />
+                <elementDefinition Id="ba8b6dd9-3378-4e7e-8b81-8a6f15a47259" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2de3f4b7-520b-460b-999f-a8db24d35e2a" name="Вихід з системи" isLeaf="false">
+            <elementDefinition Id="cf7e1bfa-4688-4e04-aabc-8a415e9cd2cb" />
+            <flowNodeTargets>
+              <controlFlow Id="c6c8d7ea-0da7-453c-9c22-5fcecbe7a762" isLeaf="false">
+                <activityFinalNodeMoniker Id="3084a013-4e9f-4468-a7eb-582c81ad5637" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="bf34ad96-b68e-4a38-b6f9-0edb51b2d3fb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="3084a013-4e9f-4468-a7eb-582c81ad5637" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="5a0c3f1b-3054-44dc-bb74-0617e76f6af9" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="2ddd35d9-7eb8-49c1-8b1a-d201401ba86f" name="ipz_lab2">
+    <elementDefinition Id="e83608f5-1419-450d-ba29-2c64200ade7c" />
+  </package>
+</activityRootModel>

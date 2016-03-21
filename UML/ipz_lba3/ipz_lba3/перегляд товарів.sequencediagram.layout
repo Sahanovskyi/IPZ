@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLSequenceDiagram4">
+  <SequenceDesignerModelMoniker Id="725e0def-401f-441a-b3c8-3afbc4d0c0c5" />
+  <nestedChildShapes>
+    <lifelineShape Id="b192e197-3d1b-45c0-9ff0-286d970b3651" absoluteBounds="1.125, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="19925d47-6817-4bc7-a99f-4c0b5f464946" LastKnownName="Комірник" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="4a09d566-87e0-4ba2-b852-8fd18d1356b4" absoluteBounds="0.7, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="19925d47-6817-4bc7-a99f-4c0b5f464946" LastKnownName="Комірник" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="9d759185-7ac6-4916-ab09-78c02e382919" absoluteBounds="1.125, 1, 0, 7">
+          <lifelineMoniker Id="19925d47-6817-4bc7-a99f-4c0b5f464946" LastKnownName="Комірник" />
+        </lifelineHoverShape>
+        <umlExecutionSpecificationShape Id="05e74561-5043-4bb1-b67c-4bc532325484" absoluteBounds="1.125, 1.3, 0.15, 0.55" customColor="184, 204, 215" visualStyleMode="Modified">
+          <behaviorExecutionSpecificationMoniker Id="a0f635bd-ab3a-4da0-a129-092e602b78df" LastKnownName="BehaviorExecutionSpecification6" />
+        </umlExecutionSpecificationShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="fb39e6b6-dbc3-4e26-80e9-23065cc974f6" absoluteBounds="5.8958334922790518, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="fd440fbb-1f94-4ebf-a20a-5d717d157123" LastKnownName="Сервер" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="0b6509dc-251b-481b-a00e-e4ce9c69aaf2" absoluteBounds="5.470833492279052, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="fd440fbb-1f94-4ebf-a20a-5d717d157123" LastKnownName="Сервер" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="5deb18cc-198d-4c79-a2d9-5df2d795dad6" absoluteBounds="5.8958334922790518, 1, 0, 7">
+          <lifelineMoniker Id="fd440fbb-1f94-4ebf-a20a-5d717d157123" LastKnownName="Сервер" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="8891f96d-6c58-4983-ac3c-e711420b45d2" absoluteBounds="3.6562500000000004, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="2c9c015d-00be-4583-ac7d-1ac1753bed97" LastKnownName="Екран" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="c4b9d558-3ad1-465c-b365-aa1af91830ab" absoluteBounds="3.2312500000000006, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="2c9c015d-00be-4583-ac7d-1ac1753bed97" LastKnownName="Екран" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="b327f97c-777f-48ee-861e-cb0d7f4952a7" absoluteBounds="3.6562500000000004, 1, 0, 7">
+          <lifelineMoniker Id="2c9c015d-00be-4583-ac7d-1ac1753bed97" LastKnownName="Екран" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <asyncMessageConnector edgePoints="[(3.73125 : 1.3); (1.275 : 1.3)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="e24617ce-6c7e-4c7d-802a-63014f02e313" customColor="Black" visible="true" visualStyleMode="Modified" messageId="00000000-0000-0000-0000-000000000000">
+      <relativeChildShapes />
+      <nodes>
+        <lifelineShapeMoniker Id="8891f96d-6c58-4983-ac3c-e711420b45d2" />
+        <umlExecutionSpecificationShapeMoniker Id="05e74561-5043-4bb1-b67c-4bc532325484" />
+      </nodes>
+    </asyncMessageConnector>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>
