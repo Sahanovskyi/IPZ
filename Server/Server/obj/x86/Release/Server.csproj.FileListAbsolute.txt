@@ -1,0 +1,8 @@
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\x86\Release\Server.exe.config
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\x86\Release\Server.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\x86\Release\Server.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\obj\x86\Release\Server.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\obj\x86\Release\Server.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\obj\x86\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\x86\Release\Database.mdf
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\x86\Release\Database_log.ldf

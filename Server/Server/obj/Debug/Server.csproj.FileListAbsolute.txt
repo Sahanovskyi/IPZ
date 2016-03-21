@@ -1,0 +1,10 @@
+c:\users\vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Server.exe.config
+c:\users\vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Server.exe
+c:\users\vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Server.pdb
+c:\users\vadym\documents\visual studio 2013\Projects\Server\Server\obj\Debug\Server.exe
+c:\users\vadym\documents\visual studio 2013\Projects\Server\Server\obj\Debug\Server.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\AccountDatabase.mdf
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\AccountDatabase_log.ldf
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Database.mdf
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Database_log.ldf
+C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

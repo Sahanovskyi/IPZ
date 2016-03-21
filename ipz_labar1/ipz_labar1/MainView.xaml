@@ -1,0 +1,186 @@
+﻿<Window x:Class="ipz_labar1.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:helper="clr-namespace:ipz_labar1.Helper"
+        xmlns:local="clr-namespace:ipz_labar1"
+        Title="{Binding Title}"
+        Width="701"
+        Height="401"
+        MinWidth="715"
+        MinHeight="320"
+        Background="{DynamicResource background}"
+        Icon="Images/icon.ico"
+        IsEnabled="{Binding IsEnabledWindow}"
+        WindowStartupLocation="CenterScreen"
+        WindowState="{Binding Source={x:Static local:Settings1.Default},
+                              Path=MainWindowState,
+                              Mode=TwoWay}">
+
+
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <ListView Name="listView"
+                  Margin="5,79,5,5"
+                  IsSynchronizedWithCurrentItem="True"
+                  ItemsSource="{Binding Path=GetItems}"
+                  SelectedIndex="{Binding selected}">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="50" DisplayMemberBinding="{Binding number}">
+                        <GridViewColumnHeader Command="{Binding SortNumber}" Content="#" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="220" DisplayMemberBinding="{Binding name}">
+                        <GridViewColumnHeader Command="{Binding SortName}" Content="Name" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding price, StringFormat={}{0:C}}">
+                        <GridViewColumnHeader Command="{Binding SortPrice}" Content="Price" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding type}">
+                        <GridViewColumnHeader Command="{Binding SortType}" Content="Type" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding count}">
+                        <GridViewColumnHeader Command="{Binding SortCount}" Content="Count" />
+                    </GridViewColumn>
+                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding id , StringFormat=\{0:000000\}}">
+                        <GridViewColumnHeader Command="{Binding SortID}" Content="ID" />
+                    </GridViewColumn>
+
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="btnLogOut"
+                Width="80"
+                Height="30"
+                Margin="0,15,10,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="White"
+                BorderBrush="{x:Null}"
+                Command="{Binding LogOut}"
+                Content="Log out"
+                FontFamily="Segoe WP Semibold"
+                FontSize="14"
+                FontStyle="Normal"
+                Foreground="#FF2DA4D1"
+                Opacity="0.925"
+                Style="{DynamicResource btnLogIn}">
+            <Button.Effect>
+                <DropShadowEffect Opacity="0.9" Color="#FFCFDAFF" />
+            </Button.Effect>
+        </Button>
+        <Grid Width="Auto"
+              Height="50"
+              Margin="5,15,0,0"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="55" />
+                <ColumnDefinition Width="55" />
+                <ColumnDefinition Width="55" />
+                <ColumnDefinition Width="55" />
+            </Grid.ColumnDefinitions>
+            <Button Width="Auto"
+                    Height="Auto"
+                    Margin="5,0"
+                    HorizontalAlignment="Stretch"
+                    BorderBrush="{x:Null}"
+                    Command="{Binding Add}"
+                    Effect="{DynamicResource Effect1}"
+                    FontFamily="Segoe WP Semibold"
+                    FontSize="16"
+                    FontStyle="Normal"
+                    Foreground="{x:Null}"
+                    IsCancel="True"
+                    Style="{DynamicResource controlMainButtonStyle}"
+                    ToolTip="Add">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/add-notes.png" Stretch="Uniform" />
+                </Button.Background>
+
+            </Button>
+            <Button Grid.Column="1"
+                    Width="Auto"
+                    Height="Auto"
+                    Margin="5,0"
+                    HorizontalAlignment="Stretch"
+                    BorderBrush="{x:Null}"
+                    Command="{Binding Edit}"
+                    Effect="{DynamicResource Effect1}"
+                    FontFamily="Segoe WP Semibold"
+                    FontSize="16"
+                    FontStyle="Normal"
+                    Foreground="{x:Null}"
+                    Style="{DynamicResource controlMainButtonStyle}"
+                    ToolTip="Edit ">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/edit-notes.png" Stretch="Uniform" />
+                </Button.Background>
+            </Button>
+            <Button Grid.Column="2"
+                    Width="Auto"
+                    Height="Auto"
+                    Margin="5,0"
+                    HorizontalAlignment="Stretch"
+                    BorderBrush="{x:Null}"
+                    Command="{Binding Delete}"
+                    Effect="{DynamicResource Effect1}"
+                    FontFamily="Segoe WP Semibold"
+                    FontSize="16"
+                    FontStyle="Normal"
+                    Foreground="{x:Null}"
+                    Style="{DynamicResource controlMainButtonStyle}"
+                    ToolTip="Delete">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/delete-notes.png" Stretch="Uniform" />
+                </Button.Background>
+
+            </Button>
+            <Button Grid.Column="3"
+                    
+                    Width="Auto"
+                    Height="Auto"
+                    Margin="5,0"
+                    HorizontalAlignment="Stretch"
+                    BorderBrush="{x:Null}"
+                    Command="{Binding Referesh}"
+                    Effect="{DynamicResource Effect1}"
+                    FontFamily="Segoe WP Semibold"
+                    FontSize="16"
+                    FontStyle="Normal"
+                    Foreground="{x:Null}"
+                    RenderTransformOrigin="0.5,1"
+                    Style="{DynamicResource controlMainButtonStyle}"
+                    ToolTip="Refresh">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/reload.png" Stretch="Uniform">
+                        <ImageBrush.Transform>
+                            <TransformGroup>
+                                <ScaleTransform />
+                                <SkewTransform />
+                                <RotateTransform />
+                                <TranslateTransform Y="1.5" />
+                            </TransformGroup>
+                        </ImageBrush.Transform>
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterX="0.5"
+                                                CenterY="0.5"
+                                                ScaleX="0.9"
+                                                ScaleY="0.95" />
+                                <SkewTransform CenterX="0.5" CenterY="0.5" />
+                                <RotateTransform CenterX="0.5" CenterY="0.5" />
+                                <TranslateTransform />
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+
+            </Button>
+        </Grid>
+       
+    </Grid>
+</Window>

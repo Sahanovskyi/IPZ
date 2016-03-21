@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <System:String x:Key="LoginTitle">Goods Accounting: Login</System:String>
+    <System:String x:Key="LoginButton">Login</System:String>
+    <System:String x:Key="RememberTitle">Remember me</System:String>
+    <System:String x:Key="UsernameHint">Username</System:String>
+    <System:String x:Key="PasswordHint">Password</System:String>
+    <System:String x:Key="CreateNewAcText">or create new account</System:String>
+    <System:String x:Key="RegisterTitle">Goods Accounting: Register</System:String>
+    <System:String x:Key="RegisterFirstInfo">Please, enter your personal information</System:String>
+    <System:String x:Key="RegisterSecondInfo">Create new warehouse or connect to exist warehouse</System:String>
+    <System:String x:Key="RegisterCheckTitle">Connect to exist warehouse</System:String>
+    <System:String x:Key="RegisterBtnTitle">Register</System:String>
+
+
+</ResourceDictionary>

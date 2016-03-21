@@ -1,0 +1,39 @@
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Goods Accounting.exe.config
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Goods Accounting.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Goods Accounting.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\String.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\App.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\EditItemView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\LoginView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\MainView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\RegisterView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\App.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting_MarkupCompile.cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting_MarkupCompile.lref
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\EditItemView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\LoginView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\MainView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\RegisterView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Resources.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting.g.resources
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\ipz_labar1.Properties.Resources.resources
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\ipz_labar1.csproj.GenerateResource.Cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\ipz_labar1.csprojResolveAssemblyReference.cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\SettingView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Debug\SettingView.g.cs

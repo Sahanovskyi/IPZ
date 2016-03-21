@@ -1,0 +1,39 @@
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Resources.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\App.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\LoginView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\RegisterView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\App.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\LoginView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\RegisterView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\ipz_labar1.Properties.Resources.resources
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\ipz_labar1.csproj.GenerateResource.Cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\String.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\ipz_labar1.csprojResolveAssemblyReference.cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Goods Accounting.exe.config
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Goods Accounting.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\bin\Release\Goods Accounting.pdb
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\EditItemView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\MainView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\SettingView.g.cs
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Goods Accounting_MarkupCompile.cache
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Goods Accounting_MarkupCompile.lref
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\EditItemView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\MainView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\SettingView.baml
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Goods Accounting.g.resources
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Goods Accounting.exe
+C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\Release\Goods Accounting.pdb
