@@ -8,3 +8,13 @@ C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Acc
 C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Database.mdf
 C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\bin\Debug\Database_log.ldf
 C:\Users\Vadym\documents\visual studio 2013\Projects\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\obj\Debug\Server.exe
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\obj\Debug\Server.pdb
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\AccountDatabase.mdf
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\AccountDatabase_log.ldf
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\Database.mdf
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\Database_log.ldf
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\Server.exe
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\bin\Debug\Server.pdb
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
