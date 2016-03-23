@@ -12,6 +12,22 @@ namespace ipz_labar1
         public string username { get; set; }
         public string password { get; set; }
 
+        public int hashPass { get; set; }
+
+        public LoginViewModel()
+        {
+            password = "";
+            if (Settings1.Default.IsLogin)
+            {
+                username = Settings1.Default.username;
+                hashPass = Settings1.Default.password;
+            }
+            else
+            {
+                username = "";
+            }
+        }
+        
       
         private ICommand _login;
         public ICommand Login
@@ -20,23 +36,28 @@ namespace ipz_labar1
             {
                 return _login ?? (_login = new RelayCommand(() =>
                 {
-                    if (username.Contains(":") || password.Contains(":"))
+                    if (!Settings1.Default.IsLogin &&(username.Contains(":") || password.Contains(":")))
                     {
                         MessageBox.Show("Incorect username or password. \nlogin or password shouldn't contain the \':\'");
                     }
                     else
                     {
-                        if (Settings1.Default.Remember)
-                        {
-                            Settings1.Default.username = username;
-                            Settings1.Default.password = password;
-                        }
-                        string data = Helper.Client.Connect(String.Format("login::{0}::{1}", username, password));
+                        if(!Settings1.Default.IsLogin)
+                            hashPass = password.GetHashCode();
+                        
+                        string data = Helper.Client.Connect(String.Format("login::{0}::{1}", username, hashPass));
                         if (data.StartsWith("208\n"))
                         {
                             Settings1.Default.Remember = false;
                             Settings1.Default.Save();
                             MessageBox.Show("Incorect username or password");
+                           /* if (Settings1.Default.IsLogin)
+                            {
+                                Settings1.Default.IsLogin = false;
+                                LoginView lv = new LoginView();
+                                lv.Show();
+
+                            }*/
                         }
                         else if (data.StartsWith("-1\n"))
                         {
@@ -46,6 +67,12 @@ namespace ipz_labar1
                         }
                         else if (data.StartsWith("0\n"))
                         {
+                            if (Settings1.Default.Remember)
+                            {
+                                Settings1.Default.username = username;
+                                Settings1.Default.password = hashPass;
+                                Settings1.Default.Save();
+                            }
                             string[] splt = data.Split('\n');
                             MainViewModel.warehouseName = splt[1];
                             string showTable = Helper.Client.Connect(String.Format("show::{0}", splt[1]));

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Vadym\Documents\ipz_accounting_of_goods\ipz_labar1\ipz_labar1\obj\Debug\
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Client\ipz_labar1\obj\Debug\
 ipz_labar1
 none
 false
 DEBUG;TRACE
-C:\Users\Vadym\Documents\ipz_accounting_of_goods\ipz_labar1\ipz_labar1\App.xaml
-71495446375
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Client\ipz_labar1\App.xaml
+8-1741312792
 
-211979455203
-171163707064
-EditItemView.xaml;LoginView.xaml;MainView.xaml;RegisterView.xaml;Resources.xaml;SettingView.xaml;String.xaml;
+221572228255
+19-668769427
+EditItemView.xaml;Helper\MyMsgBox.xaml;LoginView.xaml;MainView.xaml;RegisterView.xaml;Resources.xaml;SettingView.xaml;String.xaml;
 
-True
+False
 

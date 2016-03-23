@@ -14,10 +14,9 @@ namespace ipz_labar1
             InitializeComponent();
             LoginViewModel lvm = this.DataContext as LoginViewModel;
 
-            bool remember = Settings1.Default.Remember;
-            if (remember)
+            if (Settings1.Default.IsLogin)
             {
-                lvm.password = Settings1.Default.password;
+                lvm.hashPass = Settings1.Default.password;
                 lvm.username = Settings1.Default.username;
                 ICommand command = lvm.Login;
                 command.Execute(lvm.Login);

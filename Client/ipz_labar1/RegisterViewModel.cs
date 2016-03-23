@@ -45,8 +45,7 @@ namespace ipz_labar1
                     {
                         string data =
                             Helper.Client.Connect(String.Format("register::{0}::{1}::{2}::{3}::{4}::{5}::{6}", firstName,
-                                lastName,
-                                username, PassUser, exist.ToString(), warehousename, PassWare));
+                                lastName, username, PassUser.GetHashCode(), exist.ToString(), warehousename, PassWare.GetHashCode()));
                         if (data.StartsWith("262711\n"))
                             MessageBox.Show("This user already exist");
                         else if (data.StartsWith("-2\n"))

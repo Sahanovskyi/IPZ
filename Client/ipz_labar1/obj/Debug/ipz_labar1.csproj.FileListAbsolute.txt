@@ -40,3 +40,5 @@ C:\Users\Vadym\documents\visual studio 2013\Projects\ipz_labar1\ipz_labar1\obj\D
 C:\Users\Vadym\Documents\ipz_accounting_of_goods\ipz_labar1\ipz_labar1\bin\Debug\Goods Accounting.exe.config
 C:\Users\Vadym\Documents\ipz_accounting_of_goods\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting.exe
 C:\Users\Vadym\Documents\ipz_accounting_of_goods\ipz_labar1\ipz_labar1\obj\Debug\Goods Accounting.pdb
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Client\ipz_labar1\bin\Debug\Goods Accounting.exe.config
+C:\Users\Vadym\Documents\ipz_accounting_of_goods\Client\ipz_labar1\bin\Release\Goods Accounting.exe.config

@@ -31,7 +31,7 @@ namespace TcpServer
 
                 while (true)
                 {
-                    Console.Write("\nWaiting for a connection... ");
+                    Console.Write("\nWaiting for a connection... \n");
                     
                     TcpClient Client = Listener.AcceptTcpClient();
                     Thread Thread = new Thread(new ParameterizedThreadStart(ClientThread));
@@ -126,6 +126,9 @@ namespace TcpServer
                 case "show":
                     ShowTable(arrayReauest);
                     break;
+                default:
+                    Console.WriteLine("Request error!");
+                    break;
             }
 
             
@@ -151,7 +154,7 @@ namespace TcpServer
             param = new SqlParameter();
             param.ParameterName = "@pass";
             param.Value = requestArr[4];
-            param.SqlDbType = SqlDbType.NChar;
+            param.SqlDbType = SqlDbType.Int;
             cmd.Parameters.Add(param);
             string res = "";
             try
@@ -575,8 +578,8 @@ namespace TcpServer
 
             param = new SqlParameter();
             param.ParameterName = "@pass";
-            param.Value = password;
-            param.SqlDbType = SqlDbType.NChar;
+            param.Value = Int32.Parse(password);
+            param.SqlDbType = SqlDbType.Int;
             cmd.Parameters.Add(param);
 
             param = new SqlParameter();

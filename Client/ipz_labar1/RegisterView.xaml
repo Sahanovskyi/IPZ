@@ -11,7 +11,7 @@
         MinHeight="320"
         Background="{DynamicResource background}"
         Icon="Images/icon.ico"
-        ResizeMode="CanResize">
+        ResizeMode="NoResize">
     <Window.DataContext>
         <local:RegisterViewModel />
     </Window.DataContext>

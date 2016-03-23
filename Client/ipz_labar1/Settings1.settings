@@ -9,16 +9,16 @@
       <Value Profile="(Default)">Minimized</Value>
     </Setting>
     <Setting Name="IPAddress" Type="System.String" Scope="User">
-      <Value Profile="(Default)">178.212.234.36</Value>
+      <Value Profile="(Default)">127.0.0.1</Value>
     </Setting>
     <Setting Name="Port" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">9595</Value>
+      <Value Profile="(Default)">1024</Value>
     </Setting>
     <Setting Name="username" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="password" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="password" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="IsLogin" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>

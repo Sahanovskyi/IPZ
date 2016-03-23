@@ -78,7 +78,7 @@ namespace ipz_labar1
                     Settings1.Default.Remember = false;
                     Settings1.Default.IsLogin = false;
                     Settings1.Default.username = "";
-                    Settings1.Default.password = "";
+                    Settings1.Default.password = 0;
                     Settings1.Default.Save();
                     LoginView lv = new LoginView();
                     lv.Show();
@@ -114,6 +114,36 @@ namespace ipz_labar1
             get
             {
                 return _edit ?? (_edit = new RelayCommand(() =>
+                {
+                    _isAdd = false;
+                    if (selected != -1)
+                    {
+                        edit_add_title = "Goods Accounting: Edit";
+                        NumberFormatInfo format = new NumberFormatInfo();
+                        format.NumberGroupSeparator = ",";
+                        format.NumberDecimalSeparator = "."; 
+                        Item = GetItems[selected];
+                        EditStrings[0] = Item.name;
+                        EditStrings[1] = Item.price.ToString(format);
+                        EditStrings[2] = Item.type;
+                        EditStrings[3] = Item.count.ToString();
+                        EditStrings[4] = String.Format("{0:000000}",Item.id);
+                        EditItemView lv = new EditItemView(this);
+                        lv.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please, select item to edit");
+                    }
+                }));
+            }
+        }
+        private ICommand _clickToItem;
+        public ICommand ClickToItem
+        {
+            get
+            {
+                return _clickToItem ?? (_clickToItem = new RelayCommand(() =>
                 {
                     _isAdd = false;
                     if (selected != -1)

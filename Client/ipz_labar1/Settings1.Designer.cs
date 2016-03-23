@@ -49,7 +49,7 @@ namespace ipz_labar1 {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("178.212.234.36")]
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1")]
         public string IPAddress {
             get {
                 return ((string)(this["IPAddress"]));
@@ -61,7 +61,7 @@ namespace ipz_labar1 {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("9595")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1024")]
         public int Port {
             get {
                 return ((int)(this["Port"]));
@@ -85,10 +85,10 @@ namespace ipz_labar1 {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string password {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int password {
             get {
-                return ((string)(this["password"]));
+                return ((int)(this["password"]));
             }
             set {
                 this["password"] = value;

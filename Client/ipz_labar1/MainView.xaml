@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:helper="clr-namespace:ipz_labar1.Helper"
         xmlns:local="clr-namespace:ipz_labar1"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         Title="{Binding Title}"
         Width="701"
         Height="401"
@@ -23,10 +24,16 @@
     <Grid>
         <ListView Name="listView"
                   Margin="5,79,5,5"
+                  
                   IsSynchronizedWithCurrentItem="True"
                   ItemsSource="{Binding Path=GetItems}"
                   SelectedIndex="{Binding selected}">
 
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDoubleClick">
+                    <i:InvokeCommandAction Command="{Binding Edit}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="50" DisplayMemberBinding="{Binding number}">
@@ -44,7 +51,7 @@
                     <GridViewColumn Width="100" DisplayMemberBinding="{Binding count}">
                         <GridViewColumnHeader Command="{Binding SortCount}" Content="Count" />
                     </GridViewColumn>
-                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding id , StringFormat=\{0:000000\}}">
+                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding id, StringFormat=\{0:000000\}}">
                         <GridViewColumnHeader Command="{Binding SortID}" Content="ID" />
                     </GridViewColumn>
 
@@ -140,7 +147,6 @@
 
             </Button>
             <Button Grid.Column="3"
-                    
                     Width="Auto"
                     Height="Auto"
                     Margin="5,0"
@@ -181,6 +187,6 @@
 
             </Button>
         </Grid>
-       
+
     </Grid>
 </Window>
