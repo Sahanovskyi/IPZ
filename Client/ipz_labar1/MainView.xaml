@@ -40,19 +40,19 @@
                         <GridViewColumnHeader Command="{Binding SortNumber}" Content="#" />
                     </GridViewColumn>
                     <GridViewColumn Width="220" DisplayMemberBinding="{Binding name}">
-                        <GridViewColumnHeader Command="{Binding SortName}" Content="Name" />
+                        <GridViewColumnHeader Command="{Binding SortName}" Content="{DynamicResource edit_name}" />
                     </GridViewColumn>
                     <GridViewColumn Width="100" DisplayMemberBinding="{Binding price, StringFormat={}{0:C}}">
-                        <GridViewColumnHeader Command="{Binding SortPrice}" Content="Price" />
+                        <GridViewColumnHeader Command="{Binding SortPrice}" Content="{DynamicResource edit_price}" />
                     </GridViewColumn>
                     <GridViewColumn Width="100" DisplayMemberBinding="{Binding type}">
-                        <GridViewColumnHeader Command="{Binding SortType}" Content="Type" />
+                        <GridViewColumnHeader Command="{Binding SortType}" Content="{DynamicResource edit_type}" />
                     </GridViewColumn>
                     <GridViewColumn Width="100" DisplayMemberBinding="{Binding count}">
-                        <GridViewColumnHeader Command="{Binding SortCount}" Content="Count" />
+                        <GridViewColumnHeader Command="{Binding SortCount}" Content="{DynamicResource edit_count}" />
                     </GridViewColumn>
                     <GridViewColumn Width="80" DisplayMemberBinding="{Binding id, StringFormat=\{0:000000\}}">
-                        <GridViewColumnHeader Command="{Binding SortID}" Content="ID" />
+                        <GridViewColumnHeader Command="{Binding SortID}" Content="{DynamicResource edit_ID}" />
                     </GridViewColumn>
 
 
@@ -68,7 +68,7 @@
                 Background="White"
                 BorderBrush="{x:Null}"
                 Command="{Binding LogOut}"
-                Content="Log out"
+                Content="{DynamicResource logOut}"
                 FontFamily="Segoe WP Semibold"
                 FontSize="14"
                 FontStyle="Normal"
@@ -103,7 +103,7 @@
                     Foreground="{x:Null}"
                     IsCancel="True"
                     Style="{DynamicResource controlMainButtonStyle}"
-                    ToolTip="Add">
+                    ToolTip="{DynamicResource main_toolTip_add}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/add-notes.png" Stretch="Uniform" />
                 </Button.Background>
@@ -122,7 +122,7 @@
                     FontStyle="Normal"
                     Foreground="{x:Null}"
                     Style="{DynamicResource controlMainButtonStyle}"
-                    ToolTip="Edit ">
+                    ToolTip="{DynamicResource main_toolTip_edit}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/edit-notes.png" Stretch="Uniform" />
                 </Button.Background>
@@ -140,7 +140,7 @@
                     FontStyle="Normal"
                     Foreground="{x:Null}"
                     Style="{DynamicResource controlMainButtonStyle}"
-                    ToolTip="Delete">
+                    ToolTip="{DynamicResource main_toolTip_delete}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/delete-notes.png" Stretch="Uniform" />
                 </Button.Background>
@@ -160,7 +160,7 @@
                     Foreground="{x:Null}"
                     RenderTransformOrigin="0.5,1"
                     Style="{DynamicResource controlMainButtonStyle}"
-                    ToolTip="Refresh">
+                    ToolTip="{DynamicResource main_toolTip_refresh}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/reload.png" Stretch="Uniform">
                         <ImageBrush.Transform>

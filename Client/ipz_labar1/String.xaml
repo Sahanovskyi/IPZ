@@ -13,6 +13,21 @@
     <System:String x:Key="RegisterSecondInfo">Create new warehouse or connect to exist warehouse</System:String>
     <System:String x:Key="RegisterCheckTitle">Connect to exist warehouse</System:String>
     <System:String x:Key="RegisterBtnTitle">Register</System:String>
+    <System:String x:Key="edit_name">Name</System:String>
+    <System:String x:Key="edit_price">Price</System:String>
+    <System:String x:Key="edit_type">Type</System:String>
+    <System:String x:Key="edit_count">Count</System:String>
+    <System:String x:Key="edit_ID">ID</System:String>
+    <System:String x:Key="cancel_titel">Cancel</System:String>
+    <System:String x:Key="OK_titel">OK</System:String>
+    <System:String x:Key="main_toolTip_add">Add</System:String>
+    <System:String x:Key="main_toolTip_edit" xml:space="preserve">Edit </System:String>
+    <System:String x:Key="main_toolTip_delete">Delete</System:String>
+    <System:String x:Key="main_toolTip_refresh">Refresh</System:String>
+    <System:String x:Key="list_name">Name</System:String>
+    <System:String x:Key="list_price">Price</System:String>
+    <System:String x:Key="logOut">Log out</System:String>
+    <System:String x:Key="RegisterLastInfo">Create a new warehouse or connect to exist warehouse</System:String>
 
 
 </ResourceDictionary>

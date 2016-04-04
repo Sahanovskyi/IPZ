@@ -88,7 +88,6 @@ namespace ipz_labar1
         }
 
         private ICommand _add;
-
         private static bool _isAdd;
         public ICommand Add
         {

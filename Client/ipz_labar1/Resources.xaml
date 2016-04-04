@@ -18,6 +18,7 @@
         <Setter Property="Control.Background" Value="#FFFFFFFF" />
 
     </Style>
+    
     <ImageBrush x:Key="Brush1adsfqwerfq"
                 ImageSource="Images/delete-notes.png"
                 Stretch="Uniform" />
@@ -88,14 +89,11 @@
         </Setter>
     </Style>
 
-
-
     <LinearGradientBrush x:Key="background" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
         <GradientStop Offset="0" Color="White" />
         <GradientStop Offset="1" Color="#FFA4D1FD" />
         <GradientStop Offset="0.777" Color="#FFD3E9FE" />
     </LinearGradientBrush>
-
 
     <SolidColorBrush x:Key="brushWatermarkBackground" Color="White" />
     <SolidColorBrush x:Key="brushWatermarkForeground" Color="LightSteelBlue" />

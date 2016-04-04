@@ -36,10 +36,12 @@ namespace ipz_labar1
             {
                 return _register ?? (_register = new RelayCommand(() =>
                 {
-                    if (username.Contains(":") || firstName.Contains(":") || lastName.Contains(":") ||
+                    if (username == null || firstName == null || lastName == null ||
+                        PassUser == null || PassWare == null || warehousename == null ||
+                        username.Contains(":") || firstName.Contains(":") || lastName.Contains(":") ||
                         PassUser.Contains(":") || PassWare.Contains(":") || warehousename.Contains(":"))
                     {
-                        MessageBox.Show("Incorect data. \nData shouldn't contain the \':\'");
+                        MessageBox.Show("Incorect data. \nData can not contain the \':\' or be empty");
                     }
                     else
                     {
